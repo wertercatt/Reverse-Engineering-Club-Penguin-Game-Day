@@ -1,0 +1,391 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH12_PlayerPos1
+    Trans:
+      __Type: Vector
+      X: 3.000000
+      Y: 0.000000
+      Z: 26.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_PlayerPos2
+    Trans:
+      __Type: Vector
+      X: 16.000000
+      Y: 0.000000
+      Z: 26.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_PlayerPos3
+    Trans:
+      __Type: Vector
+      X: 6.000000
+      Y: 0.000000
+      Z: 5.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_PlayerPos4
+    Trans:
+      __Type: Vector
+      X: 19.000000
+      Y: 0.000000
+      Z: 5.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos1
+    Trans:
+      __Type: Vector
+      X: -29.000000
+      Y: 0.000000
+      Z: -15.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos2
+    Trans:
+      __Type: Vector
+      X: -7.000000
+      Y: 0.000000
+      Z: -39.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos3
+    Trans:
+      __Type: Vector
+      X: 10.000000
+      Y: -0.598557
+      Z: 51.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos4
+    Trans:
+      __Type: Vector
+      X: 42.000000
+      Y: 0.000000
+      Z: 31.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos5
+    Trans:
+      __Type: Vector
+      X: 39.000000
+      Y: 0.000000
+      Z: -4.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos6
+    Trans:
+      __Type: Vector
+      X: -21.000000
+      Y: -0.344955
+      Z: 42.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos7
+    Trans:
+      __Type: Vector
+      X: 23.000000
+      Y: 0.000000
+      Z: -30.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_NpcPos8
+    Trans:
+      __Type: Vector
+      X: -36.000000
+      Y: -0.572372
+      Z: 20.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_PufflePos1
+    Trans:
+      __Type: Vector
+      X: 28.000000
+      Y: 0.000000
+      Z: 15.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_PufflePos2
+    Trans:
+      __Type: Vector
+      X: -4.000000
+      Y: -0.000008
+      Z: 35.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH12_PufflePos3
+    Trans:
+      __Type: Vector
+      X: 2.000000
+      Y: 0.000000
+      Z: -21.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0

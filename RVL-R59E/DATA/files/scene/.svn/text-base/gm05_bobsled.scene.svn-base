@@ -1,0 +1,212 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 1
+    UseBloom: 1
+    UseDof: 0
+    UseDof2: 0
+    UseBoolean: 0
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: lambert1
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 20
+        G: 6
+        B: 4
+      Dir:
+        __Type: Vector
+        X: 0.521200
+        Y: 0.190439
+        Z: 0.831916
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 4
+        G: 16
+        B: 48
+      Dir:
+        __Type: Vector
+        X: 0.910455
+        Y: 0.220110
+        Z: -0.350175
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 4
+        G: 20
+        B: 4
+      Dir:
+        __Type: Vector
+        X: -0.659209
+        Y: 0.479425
+        Z: 0.579305
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 176
+        G: 184
+        B: 184
+      Dir:
+        __Type: Vector
+        X: -0.170187
+        Y: -0.921014
+        Z: -0.350386
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.063247
+        Y: -0.786496
+        Z: -0.614349
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 128
+        G: 220
+        B: 240
+      Dir:
+        __Type: Vector
+        X: 0.554606
+        Y: 0.807431
+        Z: 0.201164
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.274471
+        Y: 0.424972
+        Z: 0.862592
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.000036
+        Y: -0.728501
+        Z: -0.685045
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 168
+        G: 177
+        B: 184
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 200
+        G: 200
+        B: 255
+  MirrorSetting:
+    __Type: MirrorSetting
+    SoftKN: 8
+    EnableColorFilter: 1
+    Color:
+      __Type: RGBA
+      R: 116
+      G: 120
+      B: 164
+      A: 190
+  BloomSetting:
+    __Type: BloomSetting
+    ProcType: 1
+    Border: 181
+    AddShift: 41
+    SoftShiftX: 6.455353
+    SoftShiftY: 6.388978
+    Color:
+      __Type: RGBA
+      R: 50
+      G: 50
+      B: 50
+      A: 30
+    SoftKN: 5
+  FogSetting:
+    __Type: FogSetting
+    FogNum: 0
+    FogType: 0
+    ZStart: 2600
+    ZEnd: 3500
+    Color:
+      __Type: Color
+      R: 164
+      G: 192
+      B: 234
+  HubCameraSetting:
+    __Type: HubCameraSetting
+    TargetOffsetY: 16.413054
+    Angle: 15.000000
+    Speed: 0.200000
+    Fovy: 31.000000
+    Near: 10
+    Far: 8000
+    LimitDistMin: 107.653267
+    LimitDistMax: 136.396194
+    LimitLeft: -27.000000
+    LimitRight: 95.762604
+    LimitUp: -157.791168
+    LimitDown: 83.409927
+    LimitBaseZ: 0.000000
+  ShadowSetting:
+    __Type: ShadowSetting
+    LightDirEffect: 0
+    Color:
+      __Type: RGBA
+      R: 32
+      G: 32
+      B: 128
+      A: 96

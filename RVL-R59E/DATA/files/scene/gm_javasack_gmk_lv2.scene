@@ -1,0 +1,527 @@
+Root:
+  __Type: Root
+  DebugResource:
+    __Type: DebugResource
+    ResourceItem:
+      __Type: ResourceItem
+      Filename: gm_javasack_lv1.scene
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_jav_board_01:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 15
+          Y: 0.000000
+          Z: -55
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1
+          Z: 1
+    obj_jav_board_02:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -15
+          Y: 0
+          Z: -110
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_jav_board_03:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -15
+          Y: 0.000000
+          Z: 110
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1
+          Z: 1.000000
+    obj_jav_board_04:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 40
+          Y: 0.000000
+          Z: -85
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1
+          Z: 1
+    obj_jav_board_05:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -36
+          Y: 0.000000
+          Z: 125
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1
+          Z: 1
+    obj_jav_log_01:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 15
+          Y: 0
+          Z: -145
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 180
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 0.8
+          Z: 0.8
+    obj_jav_log_02:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 45
+          Y: 0
+          Z: -160
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 180
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 0.8
+          Z: 0.8
+    obj_jav_log_03:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -45
+          Y: 0
+          Z: -75
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 0.8
+          Z: 0.8
+    obj_jav_log_long_01:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -30
+          Y: 0
+          Z: 70
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 180
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 0.8
+          Z: 0.8
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    gim_coin_01:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_coin_01a.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 15
+          Y: 5
+          Z: -40
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 180
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1
+          Z: 1
+    gim_coin_02:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_coin_01a.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -15
+          Y: 5
+          Z: -105
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 180
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1
+          Z: 1
+    gim_coin_03:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_coin_01a.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 40
+          Y: 5
+          Z: -70
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 180
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 1
+          Z: 1
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_jav_kigaebox00:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_kigaebox00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 30
+          Y: 0
+          Z: 0
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 0.9
+          Z: 0.9
+    obj_jav_kigaebox01:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_kigaebox01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -30
+          Y: 0
+          Z: 0
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1
+          Y: 0.9
+          Z: 0.9
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_jav_orikaesi01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_orikaesi01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0
+          Y: 0
+          Z: 180
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 180
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    obj_jav_orikaesi00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_orikaesi00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x108
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0
+          Y: 0
+          Z: -180
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0

@@ -1,0 +1,403 @@
+Root:
+  __Type: Root
+  DebugResource:
+    __Type: DebugResource
+    ResourceItem:
+      __Type: ResourceItem
+      Filename: gm_snowfight_lv1.scene
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_fight_board00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 30.000000
+          Y: 0.000000
+          Z: -60.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_board00.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 60.000000
+          Y: 0.000000
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 90.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_wall00.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 20.000000
+          Y: -0.20000
+          Z: -20.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 315.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_fight_board00.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 30.000000
+          Y: 0.000000
+          Z: 60.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_board00.rmdl_004:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 60.000000
+          Y: 0.000000
+          Z: 30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 90.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_wall00.rmdl_005:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 20.000000
+          Y: -0.200000
+          Z: 20.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 45
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_fight_board00.rmdl_006:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -30.000000
+          Y: 0.000000
+          Z: 60.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_board00.rmdl_007:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -60.000000
+          Y: 0.000000
+          Z: 30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 90.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_wall00.rmdl_008:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -20.000000
+          Y: -0.200000
+          Z: 20.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 135
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_fight_board00.rmdl_009:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -30.000000
+          Y: 0.000000
+          Z: -60.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_board00.rmdl_010:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_board00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -60.000000
+          Y: 0.000000
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 90.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_fight_wall00.rmdl_011:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_fight_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0x148
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -20.000000
+          Y: -0.200000
+          Z: -20.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 45
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/CP_Wii/!svn/ver/992/trunk/dvdroot/test/script
+END
+test_hub1.nut
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CP_Wii/!svn/ver/992/trunk/dvdroot/test/script/test_hub1.nut
+END
+test.nut
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/CP_Wii/!svn/ver/939/trunk/dvdroot/test/script/test.nut
+END
+test_hub2.nut
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CP_Wii/!svn/ver/955/trunk/dvdroot/test/script/test_hub2.nut
+END
+test2.nut
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CP_Wii/!svn/ver/939/trunk/dvdroot/test/script/test2.nut
+END
+village.set
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/CP_Wii/!svn/ver/992/trunk/dvdroot/test/script/village.set
+END

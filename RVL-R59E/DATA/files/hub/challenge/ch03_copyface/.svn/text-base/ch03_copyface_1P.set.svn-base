@@ -1,0 +1,53 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH03_UmpirePos
+    Trans:
+      __Type: Vector
+      X: -41.000000
+      Y: 0.000000
+      Z: 110.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 15.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH03_PlayerPos1
+    Trans:
+      __Type: Vector
+      X: -37.000000
+      Y: 0.000000
+      Z: 139.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 15.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0

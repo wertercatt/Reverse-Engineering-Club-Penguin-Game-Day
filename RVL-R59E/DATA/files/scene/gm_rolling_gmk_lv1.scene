@@ -1,0 +1,13 @@
+Root:
+  __Type: Root
+  DebugResource:
+    __Type: DebugResource
+    ResourceItem:
+      __Type: ResourceItem
+      Filename: gm_rolling_lv1.scene
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 100000
+    LoopType: ENDLESS

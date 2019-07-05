@@ -1,0 +1,775 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 1
+    UseBloom: 0
+    UseDof: 0
+    UseDof2: 1
+    UseBoolean: 0
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 58
+        G: 103
+        B: 129
+      Dir:
+        __Type: Vector
+        X: 0.270556
+        Y: -0.819988
+        Z: -0.504400
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 42
+        G: 55
+        B: 84
+      Dir:
+        __Type: Vector
+        X: 0.764308
+        Y: -0.537051
+        Z: -0.356945
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 116
+        G: 181
+        B: 170
+      Dir:
+        __Type: Vector
+        X: -0.245989
+        Y: 0.667073
+        Z: -0.703209
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 168
+        G: 173
+        B: 167
+      Dir:
+        __Type: Vector
+        X: -0.577729
+        Y: -0.801563
+        Z: 0.154029
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.063247
+        Y: -0.786496
+        Z: -0.614349
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 128
+        G: 220
+        B: 240
+      Dir:
+        __Type: Vector
+        X: 0.554606
+        Y: 0.807431
+        Z: 0.201164
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.274471
+        Y: 0.424972
+        Z: 0.862592
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 0
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.000036
+        Y: -0.728501
+        Z: -0.685045
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 170
+        G: 176
+        B: 172
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 128
+        G: 128
+        B: 128
+  DofSetting:
+    __Type: DofSetting
+    BlurMaxN: 0.000000
+    BlurMaxF: 1.000000
+    BlurZN: 0.000000
+    FocusZN: 0.000000
+    FocusZF: 0.966893
+    BlurZF: 1.000000
+    BlurShiftW: 1
+    BlurShiftH: 1
+    ExtendBlur: 0
+  Dof2Setting:
+    __Type: Dof2Setting
+    Fnum: 2.900000
+    FocalLength: 35.000000
+    S: 0.033000
+    Blend: 0.350000
+    FrontBlurMax: 1.000000
+    Front: 4
+    BackBlurMax: 1.000000
+    Back: 4
+  FogSetting:
+    __Type: FogSetting
+    FogType: 4
+    ZStart: 400.000000
+    ZEnd: 750.000000
+    Color:
+      __Type: Color
+      R: 5
+      G: 122
+      B: 199
+  ShadowSetting:
+    __Type: ShadowSetting
+    LightDirEffect: 0.000000
+    Color:
+      __Type: RGBA
+      R: 2
+      G: 42
+      B: 83
+      A: 149
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: sumo_ice01
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 100000
+    LoopType: ENDLESS
+    TLPlayer:
+      __Type: TLPlayer
+      StartTime: 0.0
+      EndTime: 1.0
+      PlayerNum: 0
+    mg11_sumo_ice02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_ice02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    mg11_sumo_ice02_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_ice02_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -23.000000
+          Y: 0.000000
+          Z: -23.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    mg11_sumo_ice02_03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_ice02_03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 23.000000
+          Y: 0.000000
+          Z: -23.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    mg11_sumo_ice02_04.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_ice02_04.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 23.000000
+          Y: 0.000000
+          Z: 23.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    mg11_sumo_ice02_05.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_ice02_05.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -23.000000
+          Y: 0.000000
+          Z: 23.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    mg11_sumo_sea01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_sea01.rmdl
+      EntryDraw: 0
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      mg11_sumo_sea01.rtsa:
+        __Type: TLRtsa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Filename: mg11_sumo_sea01.rtsa
+    obj_sumo_bumper00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_sumo_bumper00.rmdl
+      EntryDraw: 0
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -28.000000
+          Y: 11.000000
+          Z: -28.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_sumo_bumper00.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_sumo_bumper00.rmdl
+      EntryDraw: 0
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 28.000000
+          Y: 11.000000
+          Z: -28.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_sumo_bumper00.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_sumo_bumper00.rmdl
+      EntryDraw: 0
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 28.000000
+          Y: 11.000000
+          Z: 28.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_sumo_bumper00.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_sumo_bumper00.rmdl
+      EntryDraw: 0
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -28.000000
+          Y: 11.000000
+          Z: 28.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_sumo_ice00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_sumo_ice00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_sumo_ice00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_sumo_ice00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 70.000000
+          Y: 0.000000
+          Z: -70.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_sumo_buoys00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_sumo_buoys00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -30.000000
+          Y: 0.000000
+          Z: 45.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 15.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+      obj_sumo_buoys00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_sumo_buoys00.rcha
+    mg11_sumo_deepsea01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_deepsea01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0
+          Y: -100
+          Z: 0
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    mg11_sumo_pillar01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_pillar01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -28
+          Y: 0.0
+          Z: -28
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    mg11_sumo_pillar02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_pillar02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 28
+          Y: 0.0
+          Z: -28
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    mg11_sumo_pillar03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_pillar03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 28
+          Y: 0.0
+          Z: 28
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    mg11_sumo_pillar04.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_pillar04.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -28
+          Y: 0.0
+          Z: 28
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    beach_sky03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: beach_sky03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 1
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.000000
+          Y: -50
+          Z: 0.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+    mg11_sumo_sky01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg11_sumo_sky01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 1
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 35
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.5
+          Y: 1.5
+          Z: 1.5

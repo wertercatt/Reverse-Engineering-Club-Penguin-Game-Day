@@ -1,0 +1,551 @@
+Root:
+  __Type: Root
+  DEBUG_VIEW:           4               # 画面分割数
+  DEBUG_MINUS_RELOAD:   0               # デバッグ時のマイナスボタンの挙動(0:Finish 1:パラメータリロード)
+  DEBUG_UI_HIDE:        0               # UIの非表示
+  DEBUG_DRAW:           0               # デバッグ表示
+  DEBUG_BALL_LOCK:      0               # 雪玉ロック状況の表示
+  DEBUG_LOCKON_DRAW:    0               # ロックオン対象表示
+  DEBUG_TIME_LIMIT_OFF: 0               # ゲームの制限時間を無効
+  DEBUG_B_DASH:         0
+  DEBUG_INFINITY_BALL:  0               # 雪玉が減らない
+  DEBUG_NPC_NOACTION:   0               # NPCが動かない
+  DEBUG_ALL_NPC:        0               # 全員NPC
+  DEBUG_SKIP_INTRO:     0               # 導入画面をスキップ
+  ---- 操作モード設定:
+  KEY_MODE_ARROW_MOVE:     1            # 十字キーで旋回モード
+  KEY_MODE_USE_BACKWARD:   1            # 後退を有効化
+  KEY_MODE_USE_TILT_MOVE:  0            # 傾けて前後移動
+  KEY_MODE_USE_KANI:       0            # かに歩きを有効化
+  KEY_MODE_USE_KAMAE:      0            # 構えを有効化
+  KEY_MODE_USE_SIDE_JUMP:  1            # サイドジャンプを有効化
+  KEY_MODE_USE_BALL_LARGE: 1            # でかい雪玉を有効化
+  KEY_MODE_DBLCLICK_DASH:      1        # DBLCLICKでダッシュ
+  KEY_MODE_DBLCLICK_TURN:      1        # DBLCLICKでクイックターンを有効化
+  KEY_MODE_DBLCLICK_KANI:      0        # DBLCLICKでかに歩き
+  KEY_MODE_DBLCLICK_SIDE_JUMP: 1        # DBLCLICKでサイドジャンプ
+  KEY_MODE_KAMAE_KANI:     0            # 構え中にかに歩き有効化
+  KEY_MODE_KANI_ROTATE:    0            # かに歩き中に旋回
+  KEY_MODE_MAKE_BALL_A:    1            # Aボタンで雪玉作成
+  KEY_MODE_A_THROW:        0            # Aボタンで雪玉投げ
+  ---- 操作パラメータ:
+  KEY_DBLCLICK_TIME:     7              # DBLCLICK判定時間
+  KEY_ROTATE_POINTER_MIN:    0          # ポインタX座標の最小判定(それぞれの画面中央が0、画面端が160)
+  KEY_ROTATE_POINTER_MAX:  240          # ポインタX座標の最大判定
+  KEY_ROTATE_POINTER_POW:    2          # ポインタX座標のカーブ
+  KEY_ROTATE_POINTER_MIN2:  60          # ポインタX座標の最小判定(それぞれの画面中央が0、画面端が160)
+  KEY_ROTATE_POINTER_MAX2: 240          # ポインタX座標の最大判定
+  KEY_ROTATE_POINTER_POW2:   1          # ポインタX座標のカーブ
+  KEY_ROTATE_POINTER_ACC_MIN:   1.2     # 加速度センサー振りすぎ判定最少値
+  KEY_ROTATE_POINTER_ACC_MAX:   1.1     # 加速度センサー振りすぎ判定最少値
+  KEY_ROTATE_TILT_ACC_W:  0.6           # リモコン傾け旋回時の静止判定の遊び(1.0+-n)
+  KEY_ROTATE_TILT_X_MIN:  0.3
+  KEY_ROTATE_TILT_X_MAX:  0.7
+  KEY_ROTATE_KEY_MAX_TIME:      15      # 旋回キー押しっぱなしで旋回加速時が最大になる時間(nフレーム)
+  KEY_ROTATE_KEY_MAX_SCALE:     4.5     # 旋回キー押しっぱなしで旋回加速時の旋回スケール
+  KEY_KAMAE_VEC_X:  0.0                 # 構え判定の加速度ベクトル
+  KEY_KAMAE_VEC_Y:  2.0                 # 構え判定の加速度ベクトル
+  KEY_KAMAE_VEC_Z: -1.0                 # 構え判定の加速度ベクトル
+  KEY_KAMAE_ASOBI: 90                   # 構え判定のベクトルからの有効とするリモコン角度
+  KEY_KAMAE_INPUT_TIME: 6
+  KEY_DASH_SHAKE: 8
+  KEY_MAKE_BALL_SHAKE: 4
+  KEY_THROW_ACC_Y:  0.3                 # 
+  KEY_THROW_ACC_Z: -2.1                 # 
+  KEY_THROW_VEL_Y:  0.31                # 振る速度
+  KEY_THROW_VEL_Z:  0.03                # 振る速度
+  KEY_THROW_ACC_DOWN_Y:  0.99           # 振り下げだけで判定する場合
+  KEY_THROW_ACC_DOWN_Z:  0.00           # 振り下げだけで判定する場合
+  KEY_THROW_VEL_DOWN_Y:  0.07           # 振り下げだけで判定する場合
+  KEY_THROW_VEL_DOWN_Z:  0.00           # 振り下げだけで判定する場合
+  KEY_BEND_TIME: 10
+  ---- Player:
+  PLAYER_COLLI_RADIUS:  4.5             # コリジョン半径
+  PLAYER_ROTATE_SPEED:       30         # 旋回スピード
+  PLAYER_ROTATE_NORMAL_TIME:  8         # 待機ステートに戻ったときに曲がり始めるまでのフェード時間
+  PLAYER_DASH_ROTATE_SPEED:  30         # ダッシュ中の旋回スピード
+  PLAYER_KANI_ROTATE_SPEED:   0         # かに歩きの旋回スピード
+  PLAYER_FORWARD_SPEED:      21         # 前進＆後退速度
+  PLAYER_SIDE_JUMP_DRAG:      0.74      # サイドジャンプ中の抵抗
+  PLAYER_SIDE_JUMP_GRAVITY:  -0.47      # サイドジャンプ中の重力
+  PLAYER_SIDE_JUMP_AX:        7.8       #
+  PLAYER_SIDE_JUMP_AY:        1.9       #
+  PLAYER_SIDE_JUMP_STOP_DRAG: 0.7       #
+  PLAYER_SIDE_JUMP_STOP_TIME:  13       #
+  PLAYER_DASH_SPEED:      40            # ダッシュ速度
+  PLAYER_DASH_MIN_TIME:   10            # ダッシュ最小時間
+  PLAYER_DASH_STOP_TIME:   7            # ダッシュ終了時硬直時間
+  PLAYER_KANI_SPEED:      10            # かに歩き速度
+  PLAYER_KANI_GEO:       0.9            # かに歩き移行速度
+  PLAYER_TURN_TIME:       20            # クイックターン旋回時間
+  PLAYER_ANIM_WALK_SPEED:       2.8     # アニメ歩き再生倍率
+  PLAYER_ANIM_KANI_SPEED:       2.8     # アニメかに歩き再生倍率
+  PLAYER_ANIM_ROTATE_SPEED:    25.0     # 
+  PLAYER_KAMAE_ROTATE_SPEED:    17      # 構え状態での旋回スピード
+  PLAYER_KAMAE_FORWARD_SPEED:    9      # 構え状態での前進＆後退速度
+  PLAYER_KAMAE_KANI_SPEED:       5      # 構え状態でのかに歩き速度
+  PLAYER_SIDE_JUMP_INPUT_STOP_TIME:   4 # 再度ジャンプ着地からクイック動作が効くまでの硬直時間
+  PLAYER_DASH_INPUT_STOP_TIME:        4 # ダッシュ終了からクイック動作が効くまでの硬直時間
+  PLAYER_DAMAGE_INPUT_STOP_TIME:     12 # ダメージ状態開始からクイック動作が効くまでの硬直時間
+  PLAYER_BALL_ENPTY_INPUT_STOP_TIME: 12 # 投げ失敗からクイック動作が効くまでの硬直時間
+  PLAYER_MAKE_BALL_POS_OFFSET_FW:   4.0 # 
+  ----:
+  HAJIKI_VEC_XZ:        3.5
+  HAJIKI_VEC_Y:         1.0
+  PLAYER_DOWN_DRAG:           0.90      # ダウン中の抵抗
+  PLAYER_DOWN_GRAVITY:       -0.25      # ダウン中の重力
+  PLAYER_DOWN_LIFE:     600
+  PLAYER_DOWN_DAMAGE:   240
+  ----:
+  PLAYER_DOWN_TIME_MIN:         40      # ダウンで寝ている最小時間
+  PLAYER_DOWN_TIME_MAX:        150      # ダウンで寝ていられる最大時間
+  ----:
+  PLAYER_MUTEKI_DOWN:           15      # 無敵時間 ダウン後
+  PLAYER_MUTEKI_DAMAGE:          0      # 無敵時間 ダメージ後
+  PLAYER_MUTEKI_DASH:            0      # 無敵時間 ダッシュ開始時
+  PLAYER_MUTEKI_SIDE_JUMP:      10      # 
+  ----:
+  PLAYER_HAJIKI_DAMAGE_VEC_XZ:  6.0     # 
+  PLAYER_HAJIKI_DAMAGE_VEC_Y:   1.0     # 
+  ---- Puffle:
+  PUFFLE_SCALE:              1.0        # パッフルの大きさ
+  PUFFLE_COLLI_RADIUS:       2.5        # コリジョン半径
+  PUFFLE_POWER_TIME:          20        # パッフルパワー状態の持続時間
+  PUFFLE_FOLLOW_OFFSET_Y:        2.5    # プレイヤーの頭上位置
+  PUFFLE_FOLLOW_LARGE_OFFSET_Y: 13.7    # プレイヤーの頭上位置 大玉時
+  PUFFLE_FOLLOW_JUMP_Y:      0.0        # ジャンプ
+  PUFFLE_NORMAL_JUMP_Y:      1.4        # 通常待機の移動ジャンプ
+  PUFFLE_NORMAL_JUMP_XZ:     3.0        # 通常待機の移動ジャンプ
+  PUFFLE_POP_JUMP_Y:         2.0        # 出現時ジャンプ
+  PUFFLE_CHATCH_JUMP_Y:      2.2        # プレイヤーの頭に乗るためのジャンプ
+  PUFFLE_CHATCH_JUMP_FORCE_TIME: 18     # プレイヤーの頭に乗る時の強制補正時間
+  PUFFLE_CHATCH_JUMP_FORCE_TIME_S_Y: 10 # プレイヤーの頭に乗る時の強制補正時間 開始
+  PUFFLE_CHATCH_JUMP_FORCE_TIME_E_Y: 18 # プレイヤーの頭に乗る時の強制補正時間 終了
+  PUFFLE_LEAVE_JUMP_Y:       1.3        # プレイヤーの頭から降りるときのジャンプ
+  PUFFLE_LEAVE_JUMP_XZ:      1.3        # プレイヤーの頭から降りるときのジャンプ
+  PUFFLE_LEAVE_JUMP_DASH_Y:  1.0        # 退場するときのジャンプダッシュ
+  PUFFLE_LEAVE_JUMP_DASH_XZ: 4.7        # 退場するときのジャンプダッシュ
+  PUFFLE_THROW_DELAY:          4        # 連射時のウェイト
+  ---- Robo:
+  ROBO_COLLI_RADIUS:    4.5             # コリジョン半径
+  ROBO_LIFE:            2               # ロボの体力
+  ---- Ball:
+  BALL_COLLI_RADIUS:            1.0     # 雪玉コリジョン半径
+  BALL_COLLI_BACK:             10.8     # 移動ベクトルと反対方向にコリジョンを伸ばす距離(壁密着して投げるとすり抜けるので)
+  BALL_SPEED_XZ:                 10     # スピード
+  BALL_SPEED_Y:                 0.0     # スピード
+  BALL_THROW_SPEED:             1.5     # 投球スピード(1.0でモーションスピードそのまま)
+  BALL_THROW_TIMING:            13      # 投球タイミング(投球モーションフレーム指定)
+  BALL_DRAG:                    1.0     # 
+  BALL_GRAVITY:                 0.0     # 
+  --:
+  BALL_LARGE_COLLI_RADIUS:      4.5     # でかい雪玉コリジョン半径
+  BALL_LARGE_COLLI_BACK:        1.0     # 移動ベクトルと反対方向にコリジョンを伸ばす距離(壁密着して投げるとすり抜けるので)
+  BALL_LARGE_THROW_SPEED:       2.0     # でかい雪玉予備動作モーションスピード
+  BALL_LARGE_THROW_TIMING:      10
+  BALL_LARGE_DRAG:              0.99    # 
+  BALL_LARGE_GRAVITY:          -0.10    # 
+  BALL_LARGE_SONIC_RADIUS_MIN:    15    # 着弾時衝撃波の半径
+  BALL_LARGE_SONIC_RADIUS_MAX:    40    # 着弾時衝撃波の半径
+  -- でかい雪玉 目視 近距離:
+  -BALL_LARGE_TARGET_LENGTH:     30      # 
+  -BALL_LARGE_SPEED_XZ:          1.1     # スピード
+  -BALL_LARGE_SPEED_Y:           1.0     # スピード
+  -- でかい雪玉 目視 遠距離:
+  -BALL_LARGE2_TARGET_LENGTH:    150     # 
+  -BALL_LARGE2_SPEED_XZ:         6.3     # スピード
+  -BALL_LARGE2_SPEED_Y:          1.2     # スピード
+  -- でかい雪玉 目視 近距離:
+  BALL_LARGE_TARGET_LENGTH:    100     # 
+  BALL_LARGE_SPEED_XZ:         2.9     # スピード
+  BALL_LARGE_SPEED_Y:          1.9     # スピード
+  -- でかい雪玉 目視 遠距離:
+  BALL_LARGE2_TARGET_LENGTH:    200     # 
+  BALL_LARGE2_SPEED_XZ:         5.9     # スピード
+  BALL_LARGE2_SPEED_Y:          1.9     # スピード
+  -- でかい雪玉 壁むこう 近距離:
+  BALL_LARGE3_TARGET_LENGTH:    100     # 
+  BALL_LARGE3_SPEED_XZ:         2.9     # スピード
+  BALL_LARGE3_SPEED_Y:          1.9     # スピード
+  -- でかい雪玉 壁むこう 遠距離:
+  BALL_LARGE4_TARGET_LENGTH:    200     # 
+  BALL_LARGE4_SPEED_XZ:         5.9     # スピード
+  BALL_LARGE4_SPEED_Y:          1.9     # スピード
+  --:
+  BALL_MAX:             5               # 雪玉の数
+  BALL_PAIR_MAX:        10              # 雪玉の数 ペアマッチ
+  BALL_LARGE_SCALE:     4.0             # 
+  BALL_LARGE_BALL_NUM:  5               # でかい雪玉で消費する数
+  BALL_LARGE_THROW_TAME_TIME:    20     # でかい雪玉予備動作時間
+  BALL_LARGE_NOLOCKON_LENGTH:   120     # でかい雪玉 ロックオンなし状態での飛距離
+  BALL_LARGE_WALLHIT_DRAW:      0.4     # 
+  BALL_LARGE_OTOSU_XZ:          0.9     # 大玉構え時にダメージを受けて落とす時のベクトル
+  BALL_LARGE_OTOSU_Y:           0.9     # 大玉構え時にダメージを受けて落とす時のベクトル
+  BALL_OFFSET_X:        1               # 投球位置オフセット
+  BALL_OFFSET_Y:        7.0             # 投球位置オフセット
+  BALL_OFFSET_Z:        6               # 投球位置オフセット
+  BALL_LARGE_OFFSET_X:        0         # 投球位置オフセット
+  BALL_LARGE_OFFSET_Y:       10.0       # 投球位置オフセット
+  BALL_LARGE_OFFSET_Z:        6         # 投球位置オフセット
+  BALL_LOCKON_TIMING:    0              # 投球時ロックオンタイミング(投球モーションフレーム指定)
+  BALL_MAKE_TIME:        5              # 雪玉作成時間
+  BALL_MAKE_TIME_FAST:   5              # 雪玉作成時間(加速時)
+  BALL_MAKE_TIME_2:     20              # 雪玉作成時間(連続作成時)
+  BALL_MAKE_TIME_KEY:    8              # 雪玉作成加速持続時間(ボタンひと押しで)
+  BALL_MAKE_CAMERA_ROT_ANGLE:  0        # 雪玉作成時の索敵可能角度
+  BALL_LOCKON_ANGLE_NEAR:     43        # ロックオン角度(x2が)
+  BALL_LOCKON_ANGLE_FAR:      13        # ロックオン角度(x2が)
+  BALL_LOCKON_LENGTH_NEAR:    15        # 角度がNEARになる距離
+  BALL_LOCKON_LENGTH_FAR:     30        # 角度がFARになる距離
+  BALL_ROTATE_VIEW_GM:  0.55
+  BALL_REACTION:        0.2             # 雪玉を投げたときの反動
+  BALL_LARGE_REACTION:  1.0             # 大玉を投げたときの反動
+  ----:
+  UI_BALL_SPLIT_TIME:   7               # 
+  ---- Snowman:
+  SNOWMAN_COLLI_RADIUS:     4.5         # コリジョン半径
+  SNOWMAN_LIFE:               1         # 雪だるま体力
+  SNOWMAN_TRESURE_OFFSET_Y: 9.0         # 宝物出現位置
+  SNOWMAN_POP_DELAY:          8         # 出現遅延(ぴゅーんぴゅーんぴゅーんぴゅーんの間隔)
+  SNOWMAN_GROUND_SONIC_RADIUS_MIN: 15   # 衝撃波
+  SNOWMAN_GROUND_SONIC_RADIUS_MAX: 20   # 衝撃波
+  GAME_REWIND_SNOWMAN_TIME: 90
+  ---- Coin:
+  COIN_COLLI_RADIUS:            3
+  COIN_LIFE_TIME:             600       # POPしてから生きている時間(n秒)
+  COIN_LIFE_END_FADE_TIME:     10       # 消え去る時間(nフレーム)
+  ---- 雪壁:
+  GIMMICK_WALL_LIFE:            10      # 
+  GIMMICK_WALL_COLLI_SCALE_X:  2.0      # 
+  GIMMICK_WALL_COLLI_SCALE_Z:  0.8      # 
+  ---- 板壁:
+  GIMMICK_BOARD_LIFE:            3      # 
+  GIMMICK_BOARD_COLLI_SCALE_X: 1.0      # 
+  GIMMICK_BOARD_COLLI_SCALE_Z: 0.8      # 
+  GIMMICK_BOARD_DAMAGE_TIME:    10      # 
+  GIMMICK_BOARD_DAMAGE_SIN_SPEED: 1.6   # 
+  GIMMICK_BOARD_DAMAGE_SIN_POW:   0.2   # 
+  ---- Effects:
+  EFFECT_PLAYER_DASH_COUNT:      5      # ダッシュ時のエフェクトの発生時間間隔(nフレーム)
+  EFFECT_PLAYER_ASE_COUNT:      20      # 汗をかくときの発生時間間隔(nフレーム)
+  EFFECT_PLAYER_SIT_TIMING:      6      # 雪玉作成時に座ったときの煙発生タイミング
+  EFFECT_PLAYER_MAKE_TIMING1:    0      # 雪玉作成時に
+  EFFECT_PLAYER_MAKE_TIMING2:   30      # 雪玉作成時に
+  EFFECT_BALL_ORBIT_SCALE:     1.5      # 雪玉軌跡スケール
+  --:
+  -EFFECT_BALL_ORBIT1_NAME: 
+  EFFECT_BALL_ORBIT1_NAME: ef_sb_kiseki01a0000
+  --:
+  EFFECT_BALL_ORBIT2_NAME: 
+  -EFFECT_BALL_ORBIT2_NAME: ef_sbkiseki02a0000
+  --:
+  EFFECT_BALL_ORBIT3_NAME: 
+  -EFFECT_BALL_ORBIT3_NAME: ef_ice_shibuki03a0000
+  -EFFECT_BALL_ORBIT3_NAME: ef_sb_break01a0000
+  -EFFECT_BALL_ORBIT3_NAME: ef_snowbreak01a0000
+  -EFFECT_BALL_ORBIT3_NAME: ef_dust_kemu01a0000
+  -EFFECT_BALL_ORBIT3_NAME: ef_fire01a_0000
+  -EFFECT_BALL_ORBIT3_NAME: ef_cracker01a0000
+  -EFFECT_BALL_ORBIT3_NAME: ef_spray01a0000
+  --:
+  EFFECT_BALL_ORBIT3_LENGTH:   7.0       # 発生距離間隔
+  EFFECT_PLAYER_DAMAGE_SCALE:  1.0      # プレイヤー雪玉ヒットスケール
+  EFFECT_SLEEP_NAME: ef_mg00_anvil_damage
+  ---- Sound:
+  SOUND_PLAYER_DASH_COUNT:      26      #
+  SOUND_PAN_MAX:               0.8      # パンの限界
+  SOUND_PAN_LENGTH:             40      # パンフェード距離
+  ---- ペンギンスタート位置:
+  StartSingle:
+    START_PLAYER_POS_X_1:         -80     # 位置X
+    START_PLAYER_POS_Z_1:         -80     # 位置Z
+    START_PLAYER_ROT_Y_1:           45    # 角度Y
+    START_PLAYER_POS_X_2:          80
+    START_PLAYER_POS_Z_2:         -80
+    START_PLAYER_ROT_Y_2:          315
+    START_PLAYER_POS_X_3:         -80
+    START_PLAYER_POS_Z_3:          80
+    START_PLAYER_ROT_Y_3:          135
+    START_PLAYER_POS_X_4:          80
+    START_PLAYER_POS_Z_4:          80
+    START_PLAYER_ROT_Y_4:          225
+  StartPair:
+    START_PLAYER_POS_X_1:         -74     # 位置X
+    START_PLAYER_POS_Z_1:         -93     # 位置Z
+    START_PLAYER_ROT_Y_1:           45    # 角度Y
+    START_PLAYER_POS_X_2:         -93
+    START_PLAYER_POS_Z_2:         -74
+    START_PLAYER_ROT_Y_2:           45
+    START_PLAYER_POS_X_3:          74
+    START_PLAYER_POS_Z_3:          93
+    START_PLAYER_ROT_Y_3:          225
+    START_PLAYER_POS_X_4:          93
+    START_PLAYER_POS_Z_4:          74
+    START_PLAYER_ROT_Y_4:          225
+  ----:
+  GRAVITY:     -0.2                     # 基本重力
+  DRAG:         0.8                     # 基本抵抗
+  ---- 氷面:
+  DRAG_ICE:     0.999                   # 
+  ACC_ICE:      0.95                    # 氷面での加速補正
+  PLAYER_ICE_ANIM_SPEED:        1.5     # 氷面でのアニメ再生速度
+  PLAYER_ICE_ANIM_VEL:          0.4     # ワタワタモーションになる速度
+  PLAYER_ICE_ANIM_ANGLE:          20    # ワタワタモーションになる角度
+  PLAYER_ICE_ROT_MUL:           0.05    # 氷面で回転してしまう倍率
+  ---- セーフコリジョン:
+  SafeColli:
+    SAFE_COLLI_AREA_1_X:      90
+    SAFE_COLLI_AREA_1_Z:      0
+    SAFE_COLLI_AREA_1_ANGLE:  270
+    SAFE_COLLI_AREA_2_X:      -90
+    SAFE_COLLI_AREA_2_Z:      0
+    SAFE_COLLI_AREA_2_ANGLE:  90
+    SAFE_COLLI_AREA_3_X:      0
+    SAFE_COLLI_AREA_3_Z:      90
+    SAFE_COLLI_AREA_3_ANGLE:  180
+    SAFE_COLLI_AREA_4_X:      -60
+    SAFE_COLLI_AREA_4_Z:      206
+    SAFE_COLLI_AREA_4_ANGLE:  155
+    SAFE_COLLI_AREA_5_X:      60
+    SAFE_COLLI_AREA_5_Z:      212
+    SAFE_COLLI_AREA_5_ANGLE:  201
+    SAFE_COLLI_AREA_6_X:      0
+    SAFE_COLLI_AREA_6_Z:      -90
+    SAFE_COLLI_AREA_6_ANGLE:  0
+    SAFE_COLLI_AREA_7_X:      -60
+    SAFE_COLLI_AREA_7_Z:      -214
+    SAFE_COLLI_AREA_7_ANGLE:  23
+    SAFE_COLLI_AREA_8_X:      60
+    SAFE_COLLI_AREA_8_Z:      -210
+    SAFE_COLLI_AREA_8_ANGLE:  -25
+  ---- 振動パラメータ:
+  VIBRATION_TIME_DAMAGE:        10
+  VIBRATION_TIME_DOWN:          20
+  Remocon:
+    CONTROL_MODE: 6                     # 
+  ---- Game:
+  BGM_FAST_TIME: 20                     # 制限時間のn秒前にBGMが早くなる
+  GameLevel1:
+    TIME_LIMIT:  90                     # 制限時間
+    Snowman1:
+      POS_X:  50
+      POS_Z:   0
+      ROT_Y:   0
+    Snowman2:
+      POS_X: -50
+      POS_Z:   0
+      ROT_Y:  90
+    Snowman3:
+      POS_X:   0
+      POS_Z:  50
+      ROT_Y: 180
+    Snowman4:
+      POS_X:   0
+      POS_Z: -50
+      ROT_Y: 270
+    NPC_TYPE_1NPC: 4
+    NPC_TYPE_2NPC: 14
+    NPC_TYPE_3NPC: 114
+    PUFFLE_NORMAL_JUMP_XZ:     0.2      # 通常待機の移動ジャンプ
+  GameLevel2:
+    TIME_LIMIT:  90
+    Snowman1:
+      POS_X:  50
+      POS_Z:   0
+      ROT_Y:   0
+    Snowman2:
+      POS_X: -50
+      POS_Z:   0
+      ROT_Y:  90
+    Snowman3:
+      POS_X:   0
+      POS_Z:  50
+      ROT_Y: 180
+    Snowman4:
+      POS_X:   0
+      POS_Z: -50
+      ROT_Y: 270
+    NPC_TYPE_1NPC: 4
+    NPC_TYPE_2NPC: 14
+    NPC_TYPE_3NPC: 114
+    PUFFLE_NORMAL_JUMP_XZ:     0.6      # 通常待機の移動ジャンプ
+  GameLevel3:
+    TIME_LIMIT:  90
+    Snowman1:
+      POS_X:  50
+      POS_Z:   0
+      ROT_Y:   0
+    Snowman2:
+      POS_X: -50
+      POS_Z:   0
+      ROT_Y:  90
+    Snowman3:
+      POS_X:   0
+      POS_Z:   0
+      ROT_Y: 180
+    NPC_TYPE_1NPC: 4
+    NPC_TYPE_2NPC: 44
+    NPC_TYPE_3NPC: 144
+    PUFFLE_NORMAL_JUMP_XZ:     3.2      # 通常待機の移動ジャンプ
+  oooJump_Huri: -1.8
+  ----スコア:
+  SCORE_CHATCH_PUFFLE:            0     # パッフルゲット
+  SCORE_BREAK_SNOWMAN:           30     # 雪だるま破壊
+  SCORE_BREAK_ROBO:             200     # 
+  SCORE_DAMAGE_WALL:              0     # 板壁ダメージ
+  SCORE_BREAK_WALL:              30     # 板壁破壊
+  SCORE_HIT_PENGUIN_DAMAGE:     100     # プレイヤーダメージ
+  SCORE_HIT_PENGUIN_DOWN:       200     # プレイヤーダウン
+  SCORE_HIT_PENGUIN_LARGE:      240     # 
+  SCORE_SCALE_SCALE_1:          1.7     # 
+  SCORE_SCALE_SCORE_1:           90     # 
+  SCORE_SCALE_SCALE_2:          2.0     # 
+  SCORE_SCALE_SCORE_2:          100     # 
+  SCORE_SCALE_SCALE_3:          3.0     # 
+  SCORE_SCALE_SCORE_3:          200     # 
+  SCORE_SCALE_SCALE_4:          3.5     # 
+  SCORE_SCALE_SCORE_4:         1000     # 
+  SCORE_WAKU_X:         0.6             # 
+  SCORE_WAKU_Y:         0.2             # 
+  SCORE_COLLI_NEAR:     0.2             # 
+  UI_SCORE_ROT_GM:      0.90            # 
+  UI_SCORE_ROT_ADD:     2.0             # 
+  ----ハンデ:
+  Handi0:
+    HANDI_START_SCORE:          0       # スタート時のスコア
+    HANDI_BALL_MAKE_SCALE:    1.0       # 雪玉作成時間のスピード倍率
+    HANDI_BALL_MAKE_MUTEKI:     0       # 雪玉作成時に無敵
+  Handi1:
+    HANDI_START_SCORE:        500       # 
+    HANDI_BALL_MAKE_SCALE:    0.5       # 
+    HANDI_BALL_MAKE_MUTEKI:     0       # 
+  Handi2:
+    HANDI_START_SCORE:       1000       # 
+    HANDI_BALL_MAKE_SCALE:    0.5       # 
+    HANDI_BALL_MAKE_MUTEKI:     0       # 
+  Handi3:
+    HANDI_START_SCORE:       1000       # 
+    HANDI_BALL_MAKE_SCALE:    0.5       # 
+    HANDI_BALL_MAKE_MUTEKI:     1       # 
+  ----Camera Ready時:
+  CameraIntro:
+    POS_DRAG:           0.4
+    CAMERA_DIST:        42
+    CAMERA_ANG:         19.0
+    CAMERA_ROLL:        0
+    CAMERA_FOVY:        22
+    TARGET_OFFSET_X:     0.0
+    TARGET_OFFSET_Y:     6.8
+  ----Camera 通常:
+  CameraNormal:
+    POS_DRAG:           0.4
+    CAMERA_DIST:        62
+    CAMERA_ANG:          8.0
+    CAMERA_ROLL:        2
+    CAMERA_FOVY:        26
+    TARGET_OFFSET_X:    -3.0
+    TARGET_OFFSET_Y:    13.0
+  ----Camera 通常:
+  -CameraNormal:
+    POS_DRAG:           0.4
+    CAMERA_DIST:        52
+    CAMERA_ANG:         19.0
+    CAMERA_ROLL:        0
+    CAMERA_FOVY:        22
+    TARGET_OFFSET_X:     0.0
+    TARGET_OFFSET_Y:     6.8
+  ----Camera 構え時:
+  CameraKamae:
+    POS_DRAG:           0.5
+    CAMERA_DIST:        27
+    CAMERA_ANG:         6.5
+    CAMERA_ROLL:        2
+    CAMERA_FOVY:        22
+    TARGET_OFFSET_X:    -3.0
+    TARGET_OFFSET_Y:    8.7
+  ----Camera かに歩き時:
+  CameraKani:
+    POS_DRAG:           0.4
+    CAMERA_DIST:        72
+    CAMERA_ANG:         14.0
+    CAMERA_ROLL:        2
+    CAMERA_FOVY:        22
+    TARGET_OFFSET_X:    -3.0
+    TARGET_OFFSET_Y:    13.0
+  old_CameraKani:
+    POS_DRAG: 0.8
+    CAMERA_DIST: 67
+    CAMERA_ANG: 6.5
+    CAMERA_ROLL: 0
+    CAMERA_FOVY: 22
+    TARGET_OFFSET_X: -0.0
+    TARGET_OFFSET_Y: 8.7
+  ----Camera:
+  ---- 地震 大玉着弾時:
+  QUAKE_POW:    5.0
+  QUAKE_TIME:   35
+  QUAKE_NEAR:   1
+  QUAKE_FAR:    220
+  ---- 地震 Snowman着地時:
+  QUAKE_SNOWMAN_GROUND_POW:     5.0
+  QUAKE_SNOWMAN_GROUND_TIME:    3
+  QUAKE_SNOWMAN_GROUND_NEAR:    1
+  QUAKE_SNOWMAN_GROUND_FAR:     100
+  ----:
+  GIMMICK_CAMERA_ALPHA_ALPHA: 0.5
+  GIMMICK_CAMERA_ALPHA_NEAR: 40
+  GIMMICK_CAMERA_ALPHA_FAR:  50
+  GIMMICK_CAMERA_HIDE_NEAR:  25
+  GIMMICK_CAMERA_HIDE_FAR:   30
+  GIMMICK_BG_KANBAN_CAMERA_HIDE_LEN:     60     # カメラと背景看板が接近した時の非表示判定
+  GIMMICK_BOARD_BREAK_GRAV: -0.2
+  GIMMICK_BOARD_BREAK_TRANS_XZ: 2.6
+  GIMMICK_BOARD_BREAK_TRANS_Y_BASE: 1.2
+  GIMMICK_BOARD_BREAK_TRANS_Y_ADD: 1.2
+  GIMMICK_BOARD_BREAK_ROT_X: 0.05               # 
+  GIMMICK_BOARD_BREAK_ROT_Y: 0.3                # 
+  GIMMICK_BOARD_BREAK_ROT_Z: 0.05               # 
+  ----:
+  NPC_COMMON:
+    DANGER_ANGLE:               25              # こっちを向いていると判断する角度
+    THROW_LARGE_STOP_TIME:      90              # 大玉作成直後の投げない時間
+  NPC1:
+    THROW_THINK_NEXT_TIME:       5              # 雪玉を投げられる時間(思考切り替えから)
+    THROW_START_STOP_TIME_MIN:  60              # 試合開始直後の投げない時間
+    THROW_START_STOP_TIME_MAX: 120              # 試合開始直後の投げない時間
+    THROW_STOP_TIME_MIN:         1              # 雪玉連射間隔 最小
+    THROW_STOP_TIME_MAX:         9              # 雪玉連射間隔 最大
+    THROW_ANGLE:                20              # 投げると判断する対象の角度
+    SNOWMAN_HUNT_PROB:           0              # 雪だるまを壊す確率
+    HUNTING_BACK_PROB:          33              # ハンティングモードから抜ける確率
+    STOP_LARGE_PROB:            50              # 停止時に大玉を作る確率
+  NPC2:
+    THROW_THINK_NEXT_TIME:       9              # 雪玉を投げられる時間(思考切り替えから)
+    THROW_START_STOP_TIME_MIN:  40              # 試合開始直後の投げない時間
+    THROW_START_STOP_TIME_MAX: 110              # 試合開始直後の投げない時間
+    THROW_STOP_TIME_MIN:         1              # 雪玉連射間隔 最小
+    THROW_STOP_TIME_MAX:         8              # 雪玉連射間隔 最大
+    THROW_ANGLE:                16              # 投げると判断する対象の角度
+    SNOWMAN_HUNT_PROB:          33              # 雪だるまを壊す確率
+    HUNTING_BACK_PROB:          22              # ハンティングモードから抜ける確率
+    STOP_LARGE_PROB:            60              # 停止時に大玉を作る確率
+  NPC3:
+    THROW_THINK_NEXT_TIME:      11              # 雪玉を投げられる時間(思考切り替えから)
+    THROW_START_STOP_TIME_MIN:  20              # 試合開始直後の投げない時間
+    THROW_START_STOP_TIME_MAX: 100              # 試合開始直後の投げない時間
+    THROW_STOP_TIME_MIN:         1              # 雪玉連射間隔 最小
+    THROW_STOP_TIME_MAX:         7              # 雪玉連射間隔 最大
+    THROW_ANGLE:                13              # 投げると判断する対象の角度
+    SNOWMAN_HUNT_PROB:          66              # 雪だるまを壊す確率
+    HUNTING_BACK_PROB:          11              # ハンティングモードから抜ける確率
+    STOP_LARGE_PROB:            80              # 停止時に大玉を作る確率
+  NPC4:
+    THROW_THINK_NEXT_TIME:      15              # 雪玉を投げられる時間(思考切り替えから)
+    THROW_START_STOP_TIME_MIN:  10              # 試合開始直後の投げない時間
+    THROW_START_STOP_TIME_MAX:  90              # 試合開始直後の投げない時間
+    THROW_STOP_TIME_MIN:         1              # 雪玉連射間隔 最小
+    THROW_STOP_TIME_MAX:         6              # 雪玉連射間隔 最大
+    THROW_ANGLE:                10              # 投げると判断する対象の角度
+    SNOWMAN_HUNT_PROB:         100              # 雪だるまを壊す確率
+    HUNTING_BACK_PROB:           0              # ハンティングモードから抜ける確率
+    STOP_LARGE_PROB:           100              # 停止時に大玉を作る確率

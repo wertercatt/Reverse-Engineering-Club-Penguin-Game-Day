@@ -1,0 +1,451 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 0
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 26
+        G: 98
+        B: 82
+      Dir:
+        __Type: Vector
+        X: -0.270155
+        Y: -0.437341
+        Z: -0.857758
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 57
+        G: 50
+        B: 44
+      Dir:
+        __Type: Vector
+        X: 0.495805
+        Y: 0.835890
+        Z: -0.235511
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 57
+        G: 73
+        B: 72
+      Dir:
+        __Type: Vector
+        X: 0.463738
+        Y: 0.691927
+        Z: -0.553339
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 175
+        G: 165
+        B: 160
+      Dir:
+        __Type: Vector
+        X: -0.429060
+        Y: -0.742822
+        Z: -0.513929
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.566911
+        Y: -0.810814
+        Z: -0.145575
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 249
+      Dir:
+        __Type: Vector
+        X: 0.689824
+        Y: -0.714339
+        Z: -0.117739
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 190
+        G: 190
+        B: 190
+      Dir:
+        __Type: Vector
+        X: -0.590967
+        Y: 0.728507
+        Z: 0.346460
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 173
+        G: 173
+        B: 173
+      Dir:
+        __Type: Vector
+        X: -0.615663
+        Y: 0.548189
+        Z: -0.566080
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 167
+        G: 176
+        B: 172
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 200
+        G: 200
+        B: 255
+  FogSetting:
+    __Type: FogSetting
+    FogNum: 0
+    FogType: 0
+    ZStart: 180.000000
+    ZEnd: 800.000000
+    Color:
+      __Type: Color
+      R: 100
+      G: 180
+      B: 240
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 0
+    UseBloom: 0
+    UseDof: 0
+    UseDof2: 1
+    UseBoolean: 0
+  ShadowSetting:
+    __Type: ShadowSetting
+    LightDirEffect: 0
+    Color:
+      __Type: RGBA
+      R: 2
+      G: 42
+      B: 83
+      A: 120
+    ClipDist: 350.000000
+    BorderRate: 0.600000
+    Filter: 1
+    AddRate:
+      __Type: RGBA
+      R: 64
+      G: 76
+      B: 72
+      A: 44
+    ConstDir:
+      __Type: Vector
+      X: 0.035554
+      Y: -0.257260
+      Z: -0.965688
+    TevType: 0
+  Dof2Setting:
+    __Type: Dof2Setting
+    Enable: 1
+    Fnum: 1.579955
+    FocalLength: 99.099998
+    S: 0.057614
+    Blend: 0.350000
+    FrontBlurMax: 0.000000
+    Front: 4
+    BackBlurMax: 1.000000
+    Back: 4
+  Camera:
+    __Type: Camera
+    Fovy: 32.000000
+    Near: 10.000000
+    Far: 3000.000000
+    Position:
+      __Type: Vector
+      X: 100
+      Y: 17.3
+      Z: 0
+    Target:
+      __Type: Vector
+      X: 102
+      Y: 21
+      Z: -100
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: counter01
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: counter02
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: poster01
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    p_paddle_field01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: p_paddle_field01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 100.000000
+          Y: -10
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.700000
+          Y: 0.700000
+          Z: 0.700000
+    dock_sky01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dock_sky01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.500000
+          Y: 0.500000
+          Z: 0.500000
+    p_paddle_counter01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: p_paddle_counter01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 100.000000
+          Y: 3
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.75
+          Y: 0.75
+          Z: 0.75
+    p_paddle_poster01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: p_paddle_poster01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 100.000000
+          Y: 3
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.75
+          Y: 0.75
+          Z: 0.75
+    p_paddle_mountain01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: p_paddle_mountain01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 100.000000
+          Y: -10
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.700000
+          Y: 0.700000
+          Z: 0.700000
+    p_paddle_tree01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: p_paddle_tree01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 100.000000
+          Y: -10
+          Z: -30.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.700000
+          Y: 0.700000
+          Z: 0.700000
+    p_paddle_sky02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: p_paddle_sky02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      p_paddle_sky02.rtsa:
+        __Type: TLRtsa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1
+        AnimStartFrame: 0.000000
+        Filename: p_paddle_sky02.rtsa
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 40
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0

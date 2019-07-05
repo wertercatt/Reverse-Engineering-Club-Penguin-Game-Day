@@ -1,0 +1,912 @@
+Root:
+  __Type: Root
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 0
+    UseBloom: 1
+    UseDof: 0
+    UseDof2: 0
+    UseBoolean: 0
+  DofSetting:
+    __Type: DofSetting
+    BlurMaxN: 0.000000
+    BlurMaxF: 1.000000
+    BlurZN: 0.000000
+    FocusZN: 0.000000
+    FocusZF: 0.966893
+    BlurZF: 1.000000
+    BlurShiftW: 1
+    BlurShiftH: 1
+    ExtendBlur: 0
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: field_start2
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 100000
+    LoopType: ENDLESS
+    TLPlayer:
+      __Type: TLPlayer
+      StartTime: 0.0
+      EndTime: 1.0
+      PlayerNum: 0
+    dance_sky.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_sky.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0
+          Y: 0
+          Z: 0
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.1
+          Y: 0.1
+          Z: 0.1
+    obj_dance_dancefloor00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_dancefloor00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_dancefloor00.rtpa:
+        __Type: TLRtpa
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_dancefloor00.rtpa
+    obj_dance_discolight00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_discolight00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_discolight00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_discolight00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -1
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    obj_dance_speaker00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_speaker00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_speaker00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_speaker00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    obj_dance_yellowlight00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_yellowlight00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_yellowlight00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_yellowlight00.rcha
+    dance_disco01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_disco01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    obj_dance_turntable00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_turntable00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_turntable00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_turntable00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.000000
+          Y: -5.000000
+          Z: 38.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_dance_fx101.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_fx101.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_fx101.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_fx101.rcha
+      obj_dance_fx101.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 1.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_fx101.rcla
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.000000
+          Y: 16.000000
+          Z: -58.316467
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.600000
+          Y: 0.600000
+          Z: 0.600000
+    obj_dance_fx101.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_fx101.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_fx101.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_fx101.rcha
+      obj_dance_fx101.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 1.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_fx101.rcla
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 92
+          Y: 5
+          Z: 0
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 326
+          Z: 250
+        Scale:
+          __Type: Vector
+          X: 0.6
+          Y: 0.6
+          Z: 0.6
+    obj_dance_fx101.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_fx101.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_dance_fx101.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 0.4
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_fx101.rcha
+      obj_dance_fx101.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 1.0
+        LoopType: ENDLESS
+        AnimSpeed: 0.4
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_fx101.rcla
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -92
+          Y: 5
+          Z: 0
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 36
+          Z: 250
+        Scale:
+          __Type: Vector
+          X: 0.6
+          Y: 0.6
+          Z: 0.6
+    obj_sound_neon.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_sound_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_sound_neon.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 1.0
+        LoopType: ENDLESS
+        AnimSpeed: 8
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_sound_neon.rcla
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -7.714271
+          Y: 16.000000
+          Z: -30.209328
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+    obj_pen_neon.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_pen_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -23.000000
+          Y: 17.000000
+          Z: -36.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 345.324799
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.500000
+          Z: 1.500000
+      obj_pen_neon.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 1.0
+        LoopType: ENDLESS
+        AnimSpeed: 6
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_pen_neon.rcla
+    obj_puffle_neon.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_dance_puffle_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 46.393208
+          Y: 12.000000
+          Z: -205.210770
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 34.041378
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+      obj_puffle_neon.rcla:
+        __Type: TLRcla
+        StartTime: 0.0
+        EndTime: 1.0
+        LoopType: ENDLESS
+        AnimSpeed: 7
+        AnimStartFrame: 0.000000
+        Filename: obj_dance_puffle_neon.rcla
+    dance_butai01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_butai01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    dance_speaker_neon.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_speaker_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -31.000000
+          Y: 8.435497
+          Z: 64.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 26.999994
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.337047
+          Z: 1.500000
+    dance_speaker_neon.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_speaker_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -36.000000
+          Y: 37.000000
+          Z: 49.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 1.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.500000
+          Z: 1.500000
+    dance_speaker_neon.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_speaker_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -48.000000
+          Y: 42.000000
+          Z: 45.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 341.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.400000
+          Z: 1.500000
+    dance_speaker_neon.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_speaker_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 36.000000
+          Y: 37.000000
+          Z: 50.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.500000
+          Z: 1.500000
+    dance_speaker_neon.rmdl_004:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_speaker_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 49.000000
+          Y: 42.000000
+          Z: 45.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 18.999998
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.400000
+          Z: 1.500000
+    dance_speaker_neon.rmdl_005:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: dance_speaker_neon.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 31.000000
+          Y: 8.465224
+          Z: 58.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 341.999969
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.356961
+          Z: 1.500000
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 26
+        G: 98
+        B: 82
+      Dir:
+        __Type: Vector
+        X: -0.451016
+        Y: -0.871964
+        Z: -0.190429
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 0
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 57
+        G: 50
+        B: 44
+      Dir:
+        __Type: Vector
+        X: 0.908720
+        Y: 0.222132
+        Z: -0.353391
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 57
+        G: 73
+        B: 72
+      Dir:
+        __Type: Vector
+        X: -0.002411
+        Y: 0.691928
+        Z: -0.721963
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 240
+        G: 240
+        B: 240
+      Dir:
+        __Type: Vector
+        X: 0.000992
+        Y: -0.858046
+        Z: -0.513572
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.063247
+        Y: -0.786496
+        Z: -0.614349
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 128
+        G: 220
+        B: 240
+      Dir:
+        __Type: Vector
+        X: 0.554606
+        Y: 0.807431
+        Z: 0.201164
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.274471
+        Y: 0.424972
+        Z: 0.862592
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.000036
+        Y: -0.728501
+        Z: -0.685045
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 150
+        G: 150
+        B: 150
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 200
+        G: 200
+        B: 255
+  BloomSetting:
+    __Type: BloomSetting
+    ProcType: 1
+    Border: 23
+    AddShift: 20
+    SoftShiftX: 8.082183
+    SoftShiftY: 6.204794
+    Color:
+      __Type: RGBA
+      R: 119
+      G: 84
+      B: 0
+      A: 146
+    SoftKN: 7
+  FogSetting:
+    __Type: FogSetting
+    FogNum: 0
+    FogType: 4
+    ZStart: 70.000000
+    ZEnd: 592.238586
+    Color:
+      __Type: Color
+      R: 27
+      G: 22
+      B: 1
+  Camera:
+    __Type: Camera
+    Fovy: 32.000000
+    Near: 10.000000
+    Far: 3000.000000
+    Position:
+      __Type: Vector
+      X: 3.3
+      Y: 40
+      Z: 240
+    Target:
+      __Type: Vector
+      X: 7.8
+      Y: 7
+      Z: -43.5
+  ColorFilter:
+    __Type: ColorFilter
+    Enable: 1
+    Red:
+      __Type: RGBA
+      R: 230
+      G: 10
+      B: 10
+      A: 0
+    Green:
+      __Type: RGBA
+      R: 10
+      G: 230
+      B: 10
+      A: 0
+    Blue:
+      __Type: RGBA
+      R: 10
+      G: 10
+      B: 230
+      A: 0
+    Bias:
+      __Type: RGBA
+      R: 0
+      G: 0
+      B: 0
+      A: 0

@@ -1,0 +1,680 @@
+Root:
+  __Type: Root
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    obj_draw_wall00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 91.000000
+          Y: 2.000000
+          Z: -180.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+    obj_draw_wall00.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -176.843842
+          Y: 2.000000
+          Z: 34.493912
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: -260.851593
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+    obj_draw_wall00.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 6.501057
+          Y: 2.000000
+          Z: 175.271759
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 11.463590
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+    obj_draw_wall00.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_wall00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 192.291229
+          Y: 2.000000
+          Z: 23.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 115.048454
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 2.000000
+          Y: 2.000000
+          Z: 2.000000
+    obj_jav_log00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -4.000000
+          Y: 2.000000
+          Z: -176.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 339.163727
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.500000
+          Z: 1.500000
+    obj_jav_log00.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 193.036423
+          Y: 2.000000
+          Z: 67.629768
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 382.853241
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.500000
+          Z: 1.500000
+    obj_jav_log00.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -4.000000
+          Y: 2.000000
+          Z: -176.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 339.163727
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.500000
+          Z: 1.500000
+    obj_jav_log00.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_jav_log00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 182.175491
+          Y: 2.000000
+          Z: 92.602242
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 235.886505
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.500000
+          Y: 1.300000
+          Z: 1.300000
+    gim_balloon00_00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      gim_balloon00_00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -177.000000
+          Y: 22.000000
+          Z: 30.569880
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    gim_balloon00_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      gim_balloon00_01.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_01.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 74.144562
+          Y: 23.000000
+          Z: -181.583298
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    gim_balloon00_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      gim_balloon00_02.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_02.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -3.679648
+          Y: 23.000000
+          Z: 175.826599
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    gim_balloon00_03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      gim_balloon00_03.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_03.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 195.000000
+          Y: 23.000000
+          Z: 28.303131
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_draw_saku00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -179.269394
+          Y: 2.000000
+          Z: -62.875656
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 49.739922
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.200000
+          Y: 1.200000
+          Z: 1.200000
+    obj_draw_saku00.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 116.738449
+          Y: 2.000000
+          Z: 177.776642
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.200000
+          Y: 1.200000
+          Z: 1.200000
+    obj_draw_saku00.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 173.598099
+          Y: 2.000000
+          Z: -4.088397
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 72.375992
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.200000
+          Y: 1.200000
+          Z: 1.200000
+    obj_draw_saku00.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -91.251053
+          Y: 3.000000
+          Z: -189.233582
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_draw_saku01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -178.579941
+          Y: 2.000000
+          Z: -90.339828
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 82.172539
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.200000
+          Y: 1.200000
+          Z: 1.200000
+    obj_draw_saku01.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -112.583542
+          Y: 2.000000
+          Z: -175.367676
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.200000
+          Y: 1.200000
+          Z: 1.200000
+    obj_draw_saku01.rmdl_002:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 172.720459
+          Y: 2.000000
+          Z: -72.461151
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: -56.737648
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_draw_saku01.rmdl_003:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_draw_saku01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -169.322891
+          Y: 2.000000
+          Z: 151.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 303.498291
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000

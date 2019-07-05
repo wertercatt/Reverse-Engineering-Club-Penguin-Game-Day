@@ -1,0 +1,945 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+    rolling_coli.hocb:
+      __Type: Collision
+      Filename: rolling_coli.hocb
+  HubCameraSetting:
+    __Type: HubCameraSetting
+    TargetOffsetY: 12.000000
+    Angle: 9.000000
+    Speed: 0.200000
+    Fovy: 32.000000
+    Near: 10
+    Far: 5000
+    LimitDistMin: 200.000000
+    LimitDistMax: 320.000000
+    LimitLeft: -100.000000
+    LimitRight: 100.000000
+    LimitUp: -100.000000
+    LimitDown: 100.000000
+    LimitBaseZ: 0.000000
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 0
+    UseMirror: 0
+    UseBloom: 0
+    UseDof: 0
+    UseDof2: 1
+    UseBoolean: 0
+  Dof2Setting:
+    __Type: Dof2Setting
+    Enable: 1
+    Fnum: 2.800000
+    FocalLength: 35.000000
+    S: 0.033000
+    Blend: 0.350000
+    FrontBlurMax: 1.000000
+    Front: 4
+    BackBlurMax: 1.000000
+    Back: 4
+  Camera:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: 31
+      Y: 23
+      Z: 186
+    Target:
+      __Type: Vector
+      X: 11.5
+      Y: 16
+      Z: 0
+  CameraIntro1Start:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: -49
+      Y: 132
+      Z: -6
+    Target:
+      __Type: Vector
+      X: -8
+      Y: 28
+      Z: -150
+  CameraIntro1End:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: -30
+      Y: 70
+      Z: 324
+    Target:
+      __Type: Vector
+      X: -6
+      Y: 10
+      Z: 85
+  CameraIntro2Start:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: 62.479305
+      Y: 36.661877
+      Z: 14.521935
+    Target:
+      __Type: Vector
+      X: 5.283764
+      Y: 5.890502
+      Z: 133.770477
+  CameraIntro2End:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: 0.447071
+      Y: 22.167653
+      Z: 55.058418
+    Target:
+      __Type: Vector
+      X: 1.213737
+      Y: 5.890502
+      Z: 135.162445
+  CameraResult1Start:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: -3.933357
+      Y: 6.863221
+      Z: 145.998505
+    Target:
+      __Type: Vector
+      X: -22.820511
+      Y: 4.642926
+      Z: 184.250366
+  CameraResult1End:
+    __Type: Camera
+    Fovy: 30.000000
+    Near: 10.000000
+    Far: 3500.000000
+    Position:
+      __Type: Vector
+      X: -19.52
+      Y: 2.55
+      Z: 164.32
+    Target:
+      __Type: Vector
+      X: -31.5
+      Y: 8.7
+      Z: 199.65
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 26
+        G: 98
+        B: 82
+      Dir:
+        __Type: Vector
+        X: -0.451016
+        Y: -0.871964
+        Z: -0.190429
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 57
+        G: 50
+        B: 44
+      Dir:
+        __Type: Vector
+        X: 0.908720
+        Y: 0.222132
+        Z: -0.353391
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 57
+        G: 73
+        B: 72
+      Dir:
+        __Type: Vector
+        X: -0.002411
+        Y: 0.691928
+        Z: -0.721963
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 175
+        G: 165
+        B: 160
+      Dir:
+        __Type: Vector
+        X: -0.389372
+        Y: -0.920394
+        Z: 0.035571
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.063247
+        Y: -0.786496
+        Z: -0.614349
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 128
+        G: 220
+        B: 240
+      Dir:
+        __Type: Vector
+        X: 0.554606
+        Y: 0.807431
+        Z: 0.201164
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: -0.274471
+        Y: 0.424972
+        Z: 0.862592
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.000036
+        Y: -0.728501
+        Z: -0.685045
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 167
+        G: 176
+        B: 172
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 200
+        G: 200
+        B: 255
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    mg09_rolling_sky01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg09_rolling_sky01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    mg09_rolling_jimen02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg09_rolling_jimen02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    mg09_rolling_jimen_snow01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg09_rolling_jimen_snow01.rmdl
+      EntryDraw: 0
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    mg09_rolling_enkei_jimen01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: mg09_rolling_enkei_jimen01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_04.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_04.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_05.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_05.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_06.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_06.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_07.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_07.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_dote01_08.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_dote01_08.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_mainflag01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_mainflag01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_mainflag02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_mainflag02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag01_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag01_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag02_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag02_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag03_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag03_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag03_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag03_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag04_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag04_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag04_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag04_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag05_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag05_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag05_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag05_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_snowhill01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_snowhill01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_snowhill02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_snowhill02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_snowhill03_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_snowhill03_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_snowhill04_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_snowhill04_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_kanban04.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_kanban04.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 1
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -113.000000
+          Y: 0.000000
+          Z: 204.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    rolling_kanban03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_kanban03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 1
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 39.000000
+          Y: 0.000000
+          Z: 223.000000
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    rolling_farmodel01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel03_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel03_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel04_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel04_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_tree01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_tree01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_tree02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_tree02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_tree03_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_tree03_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_tree04_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_tree04_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_tree05_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_tree05_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_sstree06_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_sstree06_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_sstree05_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_sstree05_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_sstree04_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_sstree04_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_sstree03_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_sstree03_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_sstree02_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_sstree02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_sstree01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_sstree01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_beacon01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_beacon01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel02_01.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel02_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel01_01.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel04_01.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel04_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_farmodel03_01.rmdl_001:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_farmodel03_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_skihill01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_skihill01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    rolling_flag04.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: rolling_flag04.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 12.000000
+          Y: -4.434800
+          Z: 200
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 247.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+  FogSetting:
+    __Type: FogSetting
+    FogNum: 0
+    FogType: 5
+    ZStart: 500.000000
+    ZEnd: 2830.038086
+    Color:
+      __Type: Color
+      R: 127
+      G: 206
+      B: 255
+  NearAlphaSetting:
+    __Type: NearAlphaSetting
+    AlphaAlpha: 0.500000
+    AlphaNear: 0.800000
+    AlphaFar: 1.000000
+    HideNear: 0.500000
+    HideFar: 0.600000
+    DefaultTargetDist: 50.000000
+    UseCameraTarget: 1

@@ -1,0 +1,105 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH05_AnvilPos1
+    Trans:
+      __Type: Vector
+      X: 41.000000
+      Y: 0.000000
+      Z: 23.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_AnvilPos2
+    Trans:
+      __Type: Vector
+      X: -4.000000
+      Y: 0.000000
+      Z: 66.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_AnvilPos3
+    Trans:
+      __Type: Vector
+      X: 60.000000
+      Y: 0.000000
+      Z: 90.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_AnvilPos4
+    Trans:
+      __Type: Vector
+      X: 33.000000
+      Y: 0.000000
+      Z: 57.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0

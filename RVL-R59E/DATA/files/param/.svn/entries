@@ -1,0 +1,74 @@
+9
+
+dir
+6057
+http://cp-wii-server:28828/svn/CP_Wii/trunk/dvdroot/param
+http://cp-wii-server:28828/svn/CP_Wii
+
+
+
+2010-06-08T06:22:49.248875Z
+5978
+tanaka_t
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9b02b4b4-0fe6-1946-ac4d-27194fa4eda4
+
+gm_jackhammer
+dir
+
+gm_javasack
+dir
+
+events.cps
+file
+
+
+
+
+2010-06-11T10:44:55.201759Z
+dff9b66bd6694cc1cff36735607166ae
+2010-05-28T09:24:08.600125Z
+5868
+miyajima
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+22926
+
+gm_snowfight
+dir
+
+gm_bobsled
+dir
+

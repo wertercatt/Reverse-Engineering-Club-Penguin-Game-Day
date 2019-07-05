@@ -1,0 +1,996 @@
+Root:
+  __Type: Root
+  DEBUG_VIEW:               4                   # ゲーム中の画面分割数
+  DEBUG_MINUS_RELOAD:       0                   # マイナスボタンでパラメータのリロード(OFF時はゲームいきなりFinish)
+  DEBUG_UI_HIDE:            0                   # UIを非表示
+  DEBUG_DRAW:               0                   # デバッグ表示
+  DEBUG_PATH_EDIT:          0                   # 
+  DEBUG_TIME_LIMIT_OFF:     0                   # タイムリミット無効
+  DEBUG_A_JUMP:             0                   # Aボタンでジャンプ
+  DEBUG_SACK_FALL_NOCHANGE: 0                   # 転倒してもサック種類そのまま
+  DEBUG_NPC_NOACTION:       0                   # NPC動かない
+  DEBUG_HUMAN_FINISH_OFF:   0                   # 人間が全員ゴールしても終了しない
+  DEBUG_SKIP_INTRO:         0                   # 導入画面をスキップ
+  ---- そのた:
+  TAMEJUMP_UP_AC_Y:       1.8                   # ためジャンプ上昇値
+  TAMEJUMP_UP_AC_FW:      1.0                   # ためジャンプ前進値
+  TAMEJUMP_UP_AC_Y_MAX:   2.0                   # ためジャンプ上昇値(第5ジャンプ)
+  TAMEJUMP_UP_AC_FW_MAX:  1.6                   # ためジャンプ前進値(第5ジャンプ)
+  -TAMEJUMP_UP_AC_Y:       1.4                   # ためジャンプ上昇値
+  -TAMEJUMP_UP_AC_FW:      1.3                   # ためジャンプ前進値
+  -TAMEJUMP_UP_AC_Y_MAX:   1.4                   # ためジャンプ上昇値(第5ジャンプ)
+  -TAMEJUMP_UP_AC_FW_MAX:  1.3                   # ためジャンプ前進値(第5ジャンプ)
+  REVERSE_ANGLE: 140                            # リバース表示をする角度
+  REVERSE_UI_OFFSET_X:      0                   # リバース表示位置オフセット
+  REVERSE_UI_OFFSET_Y:     35                   # リバース表示位置オフセット
+  COLLI_RADIUS:  4.5                            # ペンギンコリジョン半径
+  ----:
+  ROTATE_STAND_MIN:   20                        
+  ROTATE_STAND_MAX:   45                        
+  ROTATE_HURI_MIN:    45                        
+  ROTATE_HURI_MAX:   135                        
+  DOWN_SHIFT_RAD:     40                        
+  ----:
+  BOARD_HAJIKI_POW:        2.9                  # 板壁に当たったときのはじく強さXZ
+  BOARD_HAJIKI_POW_Y:      1.6                  # 板壁に当たったときのはじく強さY
+  BOARD_HAJIKI_POW_YORO:   1.0                  # 板壁に当たったときのよろよろ状態ではじく強さXZ
+  BOARD_HAJIKI_POW_YORO_Y: 0.4                  # 板壁に当たったときのよろよろ状態ではじく強さY
+  LOG_HAJIKI_POW:        4                      # 丸太に当たったときのはじく強さXZ
+  LOG_HAJIKI_POW_Y:      0.8                    # 丸太に当たったときのはじく強さY
+  LOG_HAJIKI_POW_YORO:   1.0                    # 丸太に当たったときのよろよろ状態ではじく強さXZ
+  LOG_HAJIKI_POW_YORO_Y: 0.4                    # 丸太に当たったときのよろよろ状態ではじく強さY
+  ----:
+  ROTATE_SPEED: 30                              # 待機中の旋回速度
+  ROTATE_SPEED_CHOCO: 30                        # ちょこちょこ中の旋回速度
+  GRAVITY: -0.2                                 # 通常時重力
+  DRAG: 0.8                                     # 抵抗
+  DRAG_WALL: 0.9                                # 壁すり時の抵抗
+  ----:
+  GIMMICK_TAME_UI_NEAR:      19.0               # リモコンためUI ギミックの近さ
+  GIMMICK_TAME_UI_ANGLE:       50               # リモコンためUI ギミックとの角度
+  GIMMICK_CAMERA_ALPHA_ALPHA: 0.5               # ギミックがペンギンの後ろにあるときの時の透明度
+  GIMMICK_CAMERA_ALPHA_NEAR: 40                 # ペンギン後ろNEAR
+  GIMMICK_CAMERA_ALPHA_FAR:  50                 # ペンギン後ろFAR
+  GIMMICK_CAMERA_HIDE_NEAR:  25                 # カメラに近い時NEAR
+  GIMMICK_CAMERA_HIDE_FAR:   30                 # カメラに近い時FAR
+  GIMMICK_BOARD_BREAK_GRAV: -0.2                # 板壁破壊パラメータ
+  GIMMICK_BOARD_BREAK_TRANS_XZ:     2.6         # 板壁破壊パラメータ
+  GIMMICK_BOARD_BREAK_TRANS_Y_BASE: 1.2         # 板壁破壊パラメータ
+  GIMMICK_BOARD_BREAK_TRANS_Y_ADD:  1.2         # 板壁破壊パラメータ
+  GIMMICK_BOARD_BREAK_ROT_X: 3                  # 板壁破壊パラメータ
+  GIMMICK_BOARD_BREAK_ROT_Y: 0.1                # 板壁破壊パラメータ
+  GIMMICK_BOARD_BREAK_ROT_Z: 0.1                # 板壁破壊パラメータ
+  GIMMICK_BOARD_ASAI_ANGLE: 50                  # 板壁接触時に浅いと判定する角度(正面衝突で0度)
+  GIMMICK_BOARD_ASAI_EDGE:   8                  # 板壁接触時に端っこと判定する中心からの距離(スケールも考慮します)
+  GIMMICK_LOG_ASAI_ANGLE:   50                  # 丸太接触時に浅いと判定する角度(正面衝突で0度)
+  GIMMICK_LOG_ASAI_EDGE:    12                  # 丸太接触時に端っこと判定する中心からの距離(スケールも考慮します)
+  GIMMICK_CHANGEBOX_OPEN_NEAR:      19          # 着替えボックス 接近時に自動開きする近さ
+  GIMMICK_CHANGEBOX_OPEN_NEAR_NEAR:  5          # 着替えボックス 接近時に自動開きする近さ(ここまで近づくと下の角度を見ない)
+  GIMMICK_CHANGEBOX_OPEN_ANGLE:     55          # 着替えボックス 接近時に自動開きする角度
+  GIMMICK_CHANGEBOX_PUSH_RADIUS:    12          # 着替えボックス 閉じているときに押し返す半径
+  GIMMICK_CHANGEBOX_PUSH_VEC:      1.1          # 着替えボックス 閉じているときに押し返す強さ
+  GIMMICK_FRICTION_ANG:      65                 # 壁すりと判定する角度(正面衝突で0度)
+  GIMMICK_FRICTION_TIME:      6                 # 壁すり継続時間
+  GIMMICK_FRICTION_POW:    -0.1                 # 壁すり中のジャンプ減速値
+  GIMMICK_FRICTION_POW_TR: -5.0                 # 壁すり中穴空き袋時のジャンプ減速値
+  GIMMICK_FRICTION_POW_SP: -0.0                 # 壁すり中ばね袋時のジャンプ減速値
+  ----:
+  PLAYER_HAJIKI_POW: 1.0                        # ペンギン同士衝突時のはじく強さ
+  PLAYER_FINISH2_HAJIKI_POW:   0.7              # ゴール後定位置ペンギン同士の場合のはじく強さ(弱めじゃないとピンボール状態になる)
+  PLAYER_FINISH_HAJIKI_POW_Y:  1.0              # ゴール後定位置ペンギンからはじかれる強さXZ
+  PLAYER_FINISH_HAJIKI_POW_FW: 2.0              # ゴール後定位置ペンギンからはじかれる強さY
+  PLAYER_CHANGEBOX_JUMP_NEAR:   20              # ペンギンが着替えボックスに自動飛び込みする距離
+  PLAYER_CHANGEBOX_JUMP_ANGLE:  55              # ペンギンが着替えボックスに自動飛び込みする角度(GIMMICK_CHANGEBOX_OPEN_ANGLEと同じ値が望ましい)
+  PLAYER_CHANGEBOX_ROT_TIME:    20              # 着替え中にカメラの向きを補正する時間
+  PLAYER_ARROW_OFFSET_Y:        14.8            # ゴール矢印表示オフセットY
+  PLAYER_ARROW_OFFSET_Z:        -8              # ゴール矢印表示オフセットZ
+  PLAYER_ARROW_ROT_X:           12              # ゴール矢印表示X軸 回転
+  PLAYER_ARROW_ROT_GM:         0.95             # ゴール矢印表示 振りむく速さ
+  PLAYER_ARROW_ALPHA:          1.0              # ゴール矢印表示 基本透明度
+  PLAYER_ARROW_ALPHA_GM:       0.8              # ゴール矢印表示 透明になる速さ
+  PLAYER_ARROW_SCALE:          0.5              # ゴール矢印表示 スケール
+  PLAYER_ARROW_OFFSET_Z_SCALE: 0.001            # ゴール矢印表示 Z値スケール
+  ---- SE:
+  PLAYER_SE_PAN:               0.8              # SEのパン(分割時の左右画面の効果音をパンで分ける)
+  PLAYER_SE_JUMP_PITCH_MAX:    0.6              # 第5ジャンプ時のピッチの増分(第5ジャンプ時は1+nのピッチで再生される)
+  PLAYER_SE_JUMP_PITCH_RANDOM: 0.2              # ジャンプ時SEにランダムにピッチを付ける
+  ---- Effect:
+  PLAYER_EFFECT_ASE_SCALE:            0.75      # 
+  PLAYER_EFFECT_TAMESIT_ASE_SCALE:    0.75      # 
+  PLAYER_EFFECT_TAMESIT_ASE_TIME: 15            # 
+  PLAYER_EFFECT_TAMESIT_ASE_OFFSET_Y: -4.0      # 
+  PLAYER_EFFECT_TAMESIT_ASE_OFFSET_Z:  2.0      # 
+  ----:
+  PLAYER_ROTATE_VIEW_Y: -0.05                   # 旋回中の姿勢(ラジアン) Y軸に回転して顔が見えるようになる
+  PLAYER_ROTATE_VIEW_Z:  0.12                   # 旋回中の姿勢(ラジアン) Z軸に回転してハングオン状態になる
+  PLAYER_EFFECT_NO_TIME:    6                   # ペンギン同士Hit時のエフェクトが連続で出ないように時間制限
+  PLAYER_CAMERA_HIDE_NEAR: 16                   # ペンギンがカメラに近づきすぎると非表示にする
+  PLAYER_COLLI_ANGLE:      40                   # ペンギン同士の浅い当たりと判定する角度
+  ---- JetPack:
+  JETPACK_GRAVITY: -0.07                        # 下降中の重力
+  JETPACK_FLOAT_Y:              23              # 飛行中の高さ
+  JETPACK_FLOAT_FW:            3.5              # 飛行速度
+  JETPACK_FLOAT_FW_DOWN:       2.7              # 飛行速度低速
+  JETPACK_FLOAT_FALL_FW:       1.0              # 下降中の速度
+  JETPACK_FLOAT_VY:            2.8              # 飛行浮力
+  JETPACK_VIEW_DRAG:           0.8              # 
+  JETPACK_VIEW_Z_MAX:           20              # 
+  JETPACK_VIEW_X_MAX:           20              # 
+  JETPACK_VIEW_X_DEFAULT:      -20              # デフォルトピッチ
+  JETPACK_TAME_TIME:            60              # 溜時間
+  ---- ハンデ:
+  Handi0:
+    HANDI_ACCEL_POWER:         1.0              # 加速倍率
+  Handi1:
+    HANDI_ACCEL_POWER:         1.8              # 加速倍率
+  Handi2:
+    HANDI_ACCEL_POWER:         3.0              # 加速倍率
+  Handi3:
+    HANDI_ACCEL_POWER:         4.0              # 加速倍率
+  ---- セーフコリジョン:
+  SafeColli:
+    SAFE_COLLI_AREA_1_X:      64                # コリジョンライン X
+    SAFE_COLLI_AREA_1_Z:      0                 # コリジョンライン Z
+    SAFE_COLLI_AREA_1_ANGLE:  270               # コリジョンライン 向き(内向き外向きに注意)
+    SAFE_COLLI_AREA_2_X:      -64
+    SAFE_COLLI_AREA_2_Z:      0
+    SAFE_COLLI_AREA_2_ANGLE:  90
+    SAFE_COLLI_AREA_3_X:      0
+    SAFE_COLLI_AREA_3_Z:      227
+    SAFE_COLLI_AREA_3_ANGLE:  180
+    SAFE_COLLI_AREA_4_X:      -60
+    SAFE_COLLI_AREA_4_Z:      206
+    SAFE_COLLI_AREA_4_ANGLE:  155
+    SAFE_COLLI_AREA_5_X:      60
+    SAFE_COLLI_AREA_5_Z:      212
+    SAFE_COLLI_AREA_5_ANGLE:  201
+    SAFE_COLLI_AREA_6_X:      0
+    SAFE_COLLI_AREA_6_Z:      -230
+    SAFE_COLLI_AREA_6_ANGLE:  0
+    SAFE_COLLI_AREA_7_X:      -60
+    SAFE_COLLI_AREA_7_Z:      -214
+    SAFE_COLLI_AREA_7_ANGLE:  23
+    SAFE_COLLI_AREA_8_X:      60
+    SAFE_COLLI_AREA_8_Z:      -210
+    SAFE_COLLI_AREA_8_ANGLE:  -25
+  ----:
+  VIBRATION_TIME_SFALL: 20
+  VIBRATION_TIME_LFALL1: 10
+  VIBRATION_TIME_LFALL2: 8
+  VIBRATION_TIME_LFALL3: 5
+  VIBRATION_TIME_BOARD_BREAK: 30
+  VIBRATION_TIME_BOARD_BREAK_GD: 10
+  VIBRATION_TIME_LOG: 10
+  VIBRATION_TIME_PENGUIN: 10
+  ----Ototo:
+  OTOTO_TIME: 25
+  OTOTO_TIMEOUT_STATE: 0
+  ----Remocon:
+  CONTROL_MODE: 6
+  HURI_TAME_MODE: 1
+  TAME_BUTTON_MODE: 1
+  ---- フラッグ:
+  FLAG_OFFSET_Y:        -15
+  ---- Game:
+  StartPosZ: 145.0
+  TurnPosX: 0.0
+  TurnPosZ: -180.0
+  TurnBKPosX: 0.0
+  TurnBKPosZ: 180.0
+  GoalPosZ: 135.0
+  TURN_POS_OFFSET_CZ:   30                      # ゴール矢印が曲がり始めるターンポールの手前の距離
+  ---- ゴール後の待機位置:
+  FINISH_POS_X1:  54
+  FINISH_POS_Z1: 100
+  FINISH_POS_X2:  18
+  FINISH_POS_Z2: 100
+  FINISH_POS_X3:  50
+  FINISH_POS_Z3:  86
+  FINISH_POS_X4:  22
+  FINISH_POS_Z4:  86
+  ---- リザルト時の位置:
+  RESULT_POS_X1: -50
+  RESULT_POS_Z1: 205
+  RESULT_POS_X2: -40
+  RESULT_POS_Z2: 210
+  RESULT_POS_X3: -30
+  RESULT_POS_Z3: 215
+  RESULT_POS_X4: -20
+  RESULT_POS_Z4: 220
+  GameLevel1:
+    GAME_RULE: 0                                # ゲームのルール(0:ポールターン 1:フラッグレース)
+    GOAL_LAP: 2                                 # 通常ルールでの周回数
+    TIME_LIMIT: 180                             # 
+    NPC_TYPE_1NPC: 2
+    NPC_TYPE_2NPC: 12
+    NPC_TYPE_3NPC: 123
+    PLAYER_INTRO_POS_Z:           175           # イントロ時のプレイヤーのスタート位置 Z座標(イントロ中に下のPLAYER_START_POS_Zに向かう)
+    PLAYER_START_POS_Z:           145           # プレイヤーのスタート位置 Z座標
+    PLAYER_START_POS_X_1:          10           # プレイヤー1のスタート位置 X座標
+    PLAYER_START_POS_X_2:          22           # プレイヤー2のスタート位置 X座標
+    PLAYER_START_POS_X_3:          34           # プレイヤー3のスタート位置 X座標
+    PLAYER_START_POS_X_4:          46           # プレイヤー4のスタート位置 X座標
+    -------------------- 破れ  重り  Jet  通常:
+    CHANGEBOX_TABLE_1_1:  300   700    0    0
+    CHANGEBOX_TABLE_1_2:  200   800    0    0
+    CHANGEBOX_TABLE_1_3:  100   900    0    0
+    CHANGEBOX_TABLE_2_1:  800   150   50    0
+    CHANGEBOX_TABLE_2_2:  800   100  100    0
+    CHANGEBOX_TABLE_2_3:  800     0  200    0
+    CHANGEBOX_TABLE_4_1:  200     0  800    0
+    CHANGEBOX_TABLE_4_2:  100     0  900    0
+    CHANGEBOX_TABLE_4_3:    0     0 1000    0
+    JETPACK_FLOAT_TIME_1:         110
+    JETPACK_FLOAT_TIME_2:         140
+    JETPACK_FLOAT_TIME_3:         140
+    TEARING_LENGTH_1:             210
+    TEARING_LENGTH_2:             210
+    TEARING_LENGTH_3:             210
+    GOLD_LENGTH_1:                210
+    GOLD_LENGTH_2:                210
+    GOLD_LENGTH_3:                210
+  GameLevel2:
+    GAME_RULE: 0                                # 
+    GOAL_LAP: 2                                 # 
+    TIME_LIMIT: 180                             # 
+    NPC_TYPE_1NPC: 2
+    NPC_TYPE_2NPC: 13
+    NPC_TYPE_3NPC: 134
+    PLAYER_INTRO_POS_Z:           175           # 
+    PLAYER_START_POS_Z:           145           # 
+    PLAYER_START_POS_X_1:          10           # プレイヤー1のスタート位置 X座標
+    PLAYER_START_POS_X_2:          22           # プレイヤー2のスタート位置 X座標
+    PLAYER_START_POS_X_3:          34           # プレイヤー3のスタート位置 X座標
+    PLAYER_START_POS_X_4:          46           # プレイヤー4のスタート位置 X座標
+    -------------------- 破れ  重り  Jet  通常:
+    CHANGEBOX_TABLE_1_1:  300   700    0    0
+    CHANGEBOX_TABLE_1_2:  200   800    0    0
+    CHANGEBOX_TABLE_1_3:  100   900    0    0
+    CHANGEBOX_TABLE_2_1:  800   150   50    0
+    CHANGEBOX_TABLE_2_2:  800   100  100    0
+    CHANGEBOX_TABLE_2_3:  800     0  200    0
+    CHANGEBOX_TABLE_4_1:  200     0  800    0
+    CHANGEBOX_TABLE_4_2:  100     0  900    0
+    CHANGEBOX_TABLE_4_3:    0     0 1000    0
+    JETPACK_FLOAT_TIME_1:         100
+    JETPACK_FLOAT_TIME_2:         110
+    JETPACK_FLOAT_TIME_3:         110
+    TEARING_LENGTH_1:             210
+    TEARING_LENGTH_2:             210
+    TEARING_LENGTH_3:             210
+    GOLD_LENGTH_1:                210
+    GOLD_LENGTH_2:                210
+    GOLD_LENGTH_3:                210
+  GameLevel3:
+    GAME_RULE: 0
+    GOAL_LAP: 2
+    TIME_LIMIT: 180
+    NPC_TYPE_1NPC: 4
+    NPC_TYPE_2NPC: 34
+    NPC_TYPE_3NPC: 234
+    PLAYER_INTRO_POS_Z:           175
+    PLAYER_START_POS_Z:           145
+    PLAYER_START_POS_X_1:          10           # プレイヤー1のスタート位置 X座標
+    PLAYER_START_POS_X_2:          22           # プレイヤー2のスタート位置 X座標
+    PLAYER_START_POS_X_3:          34           # プレイヤー3のスタート位置 X座標
+    PLAYER_START_POS_X_4:          46           # プレイヤー4のスタート位置 X座標
+    -------------------- 破れ  重り  Jet  通常:
+    CHANGEBOX_TABLE_1_1:  300   700    0    0
+    CHANGEBOX_TABLE_1_2:  200   800    0    0
+    CHANGEBOX_TABLE_1_3:  100   900    0    0
+    CHANGEBOX_TABLE_2_1:  800   150   50    0
+    CHANGEBOX_TABLE_2_2:  800   100  100    0
+    CHANGEBOX_TABLE_2_3:  800     0  200    0
+    CHANGEBOX_TABLE_4_1:  200     0  800    0
+    CHANGEBOX_TABLE_4_2:  100     0  900    0
+    CHANGEBOX_TABLE_4_3:    0     0 1000    0
+    JETPACK_FLOAT_TIME_1:          90
+    JETPACK_FLOAT_TIME_2:         110
+    JETPACK_FLOAT_TIME_3:          20
+    TEARING_LENGTH_1:             210
+    TEARING_LENGTH_2:             210
+    TEARING_LENGTH_3:             210
+    GOLD_LENGTH_1:                210
+    GOLD_LENGTH_2:                210
+    GOLD_LENGTH_3:                210
+  ----:
+  CHANGE_BOX_TIME_NORMAL: 60
+  CHANGE_BOX_TIME_TEARING: 60
+  CHANGE_BOX_TIME_GOLD: 60
+  CHANGE_BOX_TIME_SPRING: 60
+  ----:
+  JUMP_HURI:         -1.8                       # 
+  JUMP_HURI_REF:      0.9                       # 
+  JUMP_HURI_REF_MUL: 94.0                       # 
+  JUMP_ROTATE_MODE:     0                       # 
+  JUMP_LEVEL_MAX:       5                       # 
+  ----:
+  SACK_LIMIT_TIME:    600                       # 特殊袋時の最大持続時間(保険用)(frame)
+  SackType_Normal:
+    JUMP_DRAG: 0.9
+    TAME_ENABLE: 1
+    JUMP_GRAVITY: -0.12
+    ACCEL_POWER: 1
+    BRAKE_POWER: -1
+    GUARD_ENABLE: 1
+    TAMEJUMP_TAME_TIME: 5
+    NORMAL_BACK: 0.9
+    Jump1:
+      UP_AC_Y: 0.7
+      UP_AC_FW: 0.6
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 15
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 85
+      JUMP_BURE: 1
+    Jump2:
+      UP_AC_Y: 0.7
+      UP_AC_FW: 0.8
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 15
+      NormalTimeW: 5
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 80
+      JUMP_BURE: 1
+    Jump3:
+      UP_AC_Y: 0.7
+      UP_AC_FW: 1.1
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 12
+      NormalTimeW: 10
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 75
+      JUMP_BURE: 2
+    Jump4:
+      UP_AC_Y: 0.65
+      UP_AC_FW: 1.5
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 12
+      NormalTimeW: 7
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 1
+      RotateSpeed: 70
+      JUMP_BURE: 2
+    Jump5:
+      UP_AC_Y: 0.6
+      UP_AC_FW: 2.1
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 10
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 2
+      RotateSpeed: 65
+      JUMP_BURE: 2
+  SackType_Tearing:
+    JUMP_DRAG: 0.95
+    TAME_ENABLE: 0
+    JUMP_GRAVITY: -0.2
+    ACCEL_POWER: 2
+    BRAKE_POWER: -2
+    GUARD_ENABLE: 1
+    TAMEJUMP_TAME_TIME: 5
+    Jump1:
+      UP_AC_Y: 0.8
+      UP_AC_FW: 1.9
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 12
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 80
+      JUMP_BURE: 0
+    Jump2:
+      UP_AC_Y: 0.8
+      UP_AC_FW: 1.9
+      LandingTime: 10
+      AccelTime: -2
+      AccelTimeW: 5
+      NormalTimeW: 5
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 75
+      JUMP_BURE: 0
+    Jump3:
+      UP_AC_Y: 0.75
+      UP_AC_FW: 2.0
+      LandingTime: 10
+      AccelTime: -2
+      AccelTimeW: 4
+      NormalTimeW: 6
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 70
+      JUMP_BURE: 0
+    Jump4:
+      UP_AC_Y: 0.7
+      UP_AC_FW: 2.0
+      LandingTime: 10
+      AccelTime: -2
+      AccelTimeW: 3
+      NormalTimeW: 7
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 1
+      RotateSpeed: 65
+      JUMP_BURE: 0
+    Jump5:
+      UP_AC_Y: 0.7
+      UP_AC_FW: 2.2
+      LandingTime: 10
+      AccelTime: -2
+      AccelTimeW: 8
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 2
+      RotateSpeed: 65
+      JUMP_BURE: 0
+  SackType_Gold:
+    JUMP_DRAG: 0.8
+    TAME_ENABLE: 1
+    JUMP_GRAVITY: -0.13
+    ACCEL_POWER: 1
+    BRAKE_POWER: -1
+    GUARD_ENABLE: 1
+    TAMEJUMP_TAME_TIME: 15
+    Jump1:
+      UP_AC_Y: 0.65
+      UP_AC_FW: 0.6
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 12
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 65
+      JUMP_BURE: 0
+    Jump2:
+      UP_AC_Y: 0.65
+      UP_AC_FW: 0.9
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 12
+      NormalTimeW: 5
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 60
+      JUMP_BURE: 0
+    Jump3:
+      UP_AC_Y: 0.65
+      UP_AC_FW: 1.3
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 10
+      NormalTimeW: 6
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 50
+      JUMP_BURE: 0
+    Jump4:
+      UP_AC_Y: 0.65
+      UP_AC_FW: 1.6
+      LandingTime: 10
+      AccelTime: -5
+      AccelTimeW: 8
+      NormalTimeW: 7
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 1
+      RotateSpeed: 45
+      JUMP_BURE: 0
+    Jump5:
+      UP_AC_Y: 0.65
+      UP_AC_FW: 2.0
+      LandingTime: 10
+      AccelTime: -4
+      AccelTimeW: 6
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 2
+      RotateSpeed: 40
+      JUMP_BURE: 0
+  SackType_Spring:
+    JUMP_DRAG: 0.92
+    TAME_ENABLE: 0
+    JUMP_GRAVITY: -0.2
+    ACCEL_POWER: 1
+    BRAKE_POWER: -1
+    GUARD_ENABLE: 0
+    TAMEJUMP_TAME_TIME: 5
+    Jump1:
+      UP_AC_Y: 0.9
+      UP_AC_FW: 0.0
+      LandingTime: 10
+      AccelTime: -180
+      AccelTimeW: 200
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 80
+      JUMP_BURE: 2
+    Jump2:
+      UP_AC_Y: 1.8
+      UP_AC_FW: 1.5
+      LandingTime: 10
+      AccelTime: -180
+      AccelTimeW: 200
+      NormalTimeW: 5
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 65
+      JUMP_BURE: 2
+    Jump3:
+      UP_AC_Y: 1.8
+      UP_AC_FW: 2.0
+      LandingTime: 10
+      AccelTime: -20
+      AccelTimeW: 40
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 0
+      RotateSpeed: 50
+      JUMP_BURE: 3
+    Jump4:
+      UP_AC_Y: 1.8
+      UP_AC_FW: 2.3
+      LandingTime: 10
+      AccelTime: -20
+      AccelTimeW: 40
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 1
+      RotateSpeed: 35
+      JUMP_BURE: 3
+    Jump5:
+      UP_AC_Y: 1.8
+      UP_AC_FW: 2.5
+      LandingTime: 10
+      AccelTime: -20
+      AccelTimeW: 40
+      NormalTimeW: 0
+      BrakeTimeW: 0
+      TimeOutState: 0
+      ChocoState: 0
+      ActionState: 2
+      RotateSpeed: 20
+      JUMP_BURE: 4
+  Rotate:
+    Speed: 40.0
+    SpeedChoco: 40.0
+  ----Choco:
+  CHOCO_HURI: 1.5
+  CHOCO1_SHAKE: 100                             # ちょこちょこ第一段階の振り判定
+  CHOCO2_SHAKE: 100                             # ちょこちょこ第二段階の振り判定
+  CHOCO1_SPEED: 0.6
+  CHOCO2_SPEED: 0.7
+  CHOCO2_TIMEOUT: 90
+  ----:
+  FALL1_FALLTIME:         30                    # 小転倒から起き上がり開始までの時間
+  FALL1_UPTIME:           60                    # 小転倒 起き上がりから通常までの時間
+  FALL2_FALLTIME:         50                    # 大転倒 はねている時間
+  FALL2_DOWNTIME:          0                    # 大転倒 寝ている時間
+  FALL2_UPTIME:           30                    # 大転倒 起き上がりから通常までの時間
+  FALL2_RETURN_TIME_MIN:  50                    # 大転倒 袋に戻るタイムアウト時間(最大振り時)
+  FALL2_RETURN_TIME_MAX: 150                    # 大転倒 袋に戻るタイムアウト時間(全く振らない時)
+  FALL2_RETURN_FW_MIN: 0.5
+  FALL2_RETURN_FW_MAX: 2.0
+  FALL2_RETURN_SHAKE1:   3                      # 大転倒復帰時の戻り中の振り判定
+  FALL2_RETURN_SHAKE2:   6                      # 大転倒復帰時の戻り中の振り判定
+  FALL2_LENGTH: 3                               # 大転倒時にはねるトータル距離(nメートル)
+  FALL2_WEAR_TIME: 15                           # 袋を穿く時間
+  FALL2_PRE_ROT_X: -40
+  Camera:
+    POS_DRAG: 0.8
+    CAMERA_ROTATE_MODE:         0
+    ----:
+    CAMERA_DIST_1V:            57               # １画面時
+    CAMERA_ANG_1V:           12.5               # １画面時
+    CAMERA_DIST:               47
+    CAMERA_ANG:               9.5
+    CAMERA_ROLL:                0
+    CAMERA_FOVY:               22
+    TARGET_OFFSET_X:          0.0
+    TARGET_OFFSET_Y:          7.7
+    CAMERA_DRAG:             0.50
+    CAMERA_DRAG_TIME:          20
+    CAMERA_DRAG_FIRST:       0.92
+    ----:
+    INTRO_CAMERA_DIST:         27
+    INTRO_CAMERA_ANG:         9.5
+    INTRO_CAMERA_ROLL:          0
+    INTRO_TARGET_OFFSET_X:    0.0
+    INTRO_TARGET_OFFSET_Y:    7.7
+    INTRO_CAMERA_DRAG:       0.92
+    ----:
+    FINISH_DIST:               27
+    FINISH_ANG:               7.5
+    FINISH_OFFSET_Y:            6
+    FINISH_CAMERA_DIST:        37
+    FINISH_CAMERA_ANG:        7.5
+    FINISH_CAMERA_ROLL:         0
+    FINISH_TARGET_OFFSET_X:   0.0
+    FINISH_TARGET_OFFSET_Y:   5.7
+    FINISH_CAMERA_DRAG:      0.98
+    ---- Camera JetPack:
+    JETPACK_CAMERA_DIST:       37
+    JETPACK_CAMERA_ANG:      37.5
+    JETPACK_CAMERA_ROLL:       40
+    JETPACK_TARGET_OFFSET_X:  0.0
+    JETPACK_TARGET_OFFSET_Y: 20.7
+    JETPACK_CAMERA_DRAG:     0.70
+    ---- Camera JetPack Fall:
+    JETPACK_FALL_CAMERA_DIST:       57
+    JETPACK_FALL_CAMERA_ANG:     -20.0
+    JETPACK_FALL_CAMERA_ROLL:       10
+    JETPACK_FALL_TARGET_OFFSET_X:  0.0
+    JETPACK_FALL_TARGET_OFFSET_Y: 14.7
+    JETPACK_FALL_CAMERA_DRAG:     0.85
+  QUAKE_POW: 0.5
+  QUAKE_TIME: 3
+  QUAKE_NEAR: 1
+  QUAKE_FAR: 300
+  ------------           TRNORM      :
+  ------------          TAMEST      :
+  ------------         TAMEJP      :
+  ------------        FALLUP      FINISH:
+  ------------       FALLNO      DISABL:
+  ------------      TRUMPO      GUARD_:
+  ------------     5JUMP_      SP5JMP:
+  ------------    4JUMP_      SPSJMP:
+  ------------   OTOTO_      SPNORM:
+  ------------  CHOCO_      GDJUMP:
+  ------------ SJUMP_      GDNORM:
+  ------------NORMAL      TRJUMP:
+  CollMode:
+    Normal:
+      NORMAL: -S--SSS--S--LLLLLL---
+      SJUMP_: ----SSS--SS-LLL-SL---
+      CHOCO_: -S--SSS--S--L-L-LL---
+      OTOTO_: SSSSSSS-SS--L-L-LL---
+      4JUMP_: OYYYYYY--SSSLLLSLL---
+      5JUMP_: YYYYYYY--LLLLLLLLL---
+      TRUMPO: SSSSSSSLLLLLLLLLLL---
+      FALLNO: ---------------------
+      FALLUP: ---------------------
+      TAMEJP: -S--SSS--S--LSL-SS--Y
+      TAMEST: --------------L------
+      TRNORM: ----LLL--LLLLLLLLL---
+      TRJUMP: LLOOLLL--LLLLLLLLL---
+      GDNORM: --------------------Y
+      GDJUMP: --------------------Y
+      SPNORM: LLLLLLL--LLLLLLLLL---
+      SPSJMP: LLLLLLLLLLLLLLLLLL---
+      SP5JMP: LLLLLLLLLLLLLLLLLL---
+      GUARD_: ---------------------
+      DISABL: ---------------------
+      FINISH: -O--OO---O--O-O-OO---
+    Attack:
+      NORMAL: .....................
+      SJUMP_: ....---------SS.--...
+      CHOCO_: ..--.....-......--...
+      OTOTO_: .....SS--S-SSSSSSS...
+      4JUMP_: ----...---.OOSS---...
+      5JUMP_: OOOOOO...OLS.........
+      TRUMPO: OOOOOO.OOO...........
+      FALLNO: .....................
+      FALLUP: .....................
+      TAMEJP: .-..-OL..--.OSS......
+      TAMEST: .....................
+      TRNORM: .....................
+      TRJUMP: .....................
+      GDJUMP: .....................
+      GDNORM: .....................
+      SPNORM: .....................
+      SPSJMP: .....................
+      SP5JMP: .....................
+      GUARD_: .....................
+      DISABL: .....................
+      FINISH: .....................
+    Asai:
+      NORMAL: -----S-------OL-----.
+      SJUMP_: -----S-------OL-----.
+      CHOCO_: -----S-------SL-----.
+      OTOTO_: -----S-------SL-----.
+      4JUMP_: -----S-------OL-----.
+      5JUMP_: -------------OL-----.
+      TRUMPO: -------------OL-----.
+      FALLNO: --------------------.
+      FALLUP: --------------------.
+      TAMEJP: -------------SL-----.
+      TAMEST: --------------L-----.
+      TRNORM: -----L-------LL-----.
+      TRJUMP: -----L-------LL-----.
+      GDJUMP: --------------------.
+      GDNORM: --------------------.
+      SPNORM: .....................
+      SPSJMP: .....................
+      SP5JMP: .....................
+      GUARD_: -------------LL-----.
+      DISABL: --------------------.
+      FINISH: .....................
+  ------------           TRNORM      :
+  ------------          TAMEST      :
+  ------------         TAMEJP      :
+  ------------        FALLUP      FINISH:
+  ------------       FALLNO      DISABL:
+  ------------      TRUMPO      GUARD_:
+  ------------     5JUMP_      SP5JMP:
+  ------------    4JUMP_      SPSJMP:
+  ------------   OTOTO_      SPNORM:
+  ------------  CHOCO_      GDJUMP:
+  ------------ SJUMP_      GDNORM:
+  ------------NORMAL      TRJUMP:
+  GimmickCollMode:
+    Board:
+      NORMAL: -
+      SJUMP_: -
+      CHOCO_: -
+      OTOTO_: -
+      4JUMP_: -
+      5JUMP_: L
+      TRUMPO: L
+      FALLNO: -
+      FALLUP: -
+      TAMEJP: -
+      TAMEST: -
+      TRNORM: -
+      TRJUMP: L
+      GDNORM: -
+      GDJUMP: N
+      SPNORM: -
+      SPSJMP: -
+      SP5JMP: -
+      GUARD_: -
+      DISABL: -
+      FINISH: -
+    BoardAsai:
+      NORMAL: -
+      SJUMP_: -
+      CHOCO_: -
+      OTOTO_: -
+      4JUMP_: -
+      5JUMP_: -
+      TRUMPO: -
+      FALLNO: -
+      FALLUP: -
+      TAMEJP: -
+      TAMEST: -
+      TRNORM: -
+      TRJUMP: -
+      GDNORM: -
+      GDJUMP: N
+      SPNORM: -
+      SPSJMP: -
+      SP5JMP: -
+      GUARD_: -
+      DISABL: -
+      FINISH: -
+    BoardEdge:
+      NORMAL: -
+      SJUMP_: -
+      CHOCO_: -
+      OTOTO_: -
+      4JUMP_: Y
+      5JUMP_: Y
+      TRUMPO: -
+      FALLNO: -
+      FALLUP: -
+      TAMEJP: -
+      TAMEST: -
+      TRNORM: -
+      TRJUMP: -
+      GDNORM: -
+      GDJUMP: N
+      SPNORM: -
+      SPSJMP: -
+      SP5JMP: -
+      GUARD_: -
+      DISABL: -
+      FINISH: -
+    Log:
+      NORMAL: -
+      SJUMP_: -
+      CHOCO_: -
+      OTOTO_: -
+      4JUMP_: O
+      5JUMP_: L
+      TRUMPO: L
+      FALLNO: -
+      FALLUP: -
+      TAMEJP: -
+      TAMEST: -
+      TRNORM: -
+      TRJUMP: -
+      GDNORM: -
+      GDJUMP: L
+      SPNORM: -
+      SPSJMP: -
+      SP5JMP: -
+      GUARD_: -
+      DISABL: -
+      FINISH: -
+    LogAsai:
+      NORMAL: -
+      SJUMP_: -
+      CHOCO_: -
+      OTOTO_: -
+      4JUMP_: -
+      5JUMP_: -
+      TRUMPO: -
+      FALLNO: -
+      FALLUP: -
+      TAMEJP: -
+      TAMEST: -
+      TRNORM: -
+      TRJUMP: -
+      GDNORM: -
+      GDJUMP: -
+      SPNORM: -
+      SPSJMP: -
+      SP5JMP: -
+      GUARD_: -
+      DISABL: -
+      FINISH: -
+    LogEdge:
+      NORMAL: -
+      SJUMP_: -
+      CHOCO_: -
+      OTOTO_: -
+      4JUMP_: Y
+      5JUMP_: Y
+      TRUMPO: -
+      FALLNO: -
+      FALLUP: -
+      TAMEJP: -
+      TAMEST: -
+      TRNORM: -
+      TRJUMP: Y
+      GDNORM: -
+      GDJUMP: Y
+      SPNORM: -
+      SPSJMP: -
+      SP5JMP: -
+      GUARD_: -
+      DISABL: -
+      FINISH: -
+  NPC_COMMON:
+    PATH_NEAR: 30
+    PATH_FORWARD_CORRECT: -0.5
+    CHECK_STACK_RADIUS:        10               # 立ち往生してると判断する半径
+    CHECK_STACK_TIME:          40               # 立ち往生してると判断する時間(frame)
+    START_DELAY_TIME_MIN:      12               # スタート時の出遅れ最小値(frame)
+    START_DELAY_TIME_MAX:      42               # スタート時の出遅れ最大値(frame)
+    START_STRAIGHT_TIME_MIN:   40               # スタート時の直進時間
+    START_STRAIGHT_TIME_MAX:  110               # スタート時の直進時間
+  ---- NPC1(弱い):
+  NPC1:
+    DOWN_SHIFT:             2                   # n+1のジャンプ時にブレーキをする(これ以上ジャンプ段階が上がらなくなる)
+    DOWN_SHIFT_ANGLE:      20                   # 目標地点までの角度がn以上ならブレーキ
+    DOWN_SHIFT_STOP_ANGLE: 70                   # 目標地点までの角度がn以上なら停止して旋回
+    ROTATE_ANGLE: 30                            # 目標地点までの角度がn以上ならフル旋回(旋回性能)
+    STOP_AFTER_JUMP_PROB: 50                    # 着地時の停止ステート移行確率(％)
+    STOP_MIN: 5                                 # 停止ステートの持続時間MIN
+    STOP_MAX: 10                                # 停止ステートの持続時間MAX
+    TAME_OVER_GIMMICK_PROB:  60                 # 前方にギミックがある場合のためステート移行確率(％)
+    PATH_CHANGE_BOX_RANK1_PROB: 10              # ポールターン後に着替えボックスを目指す確率(％) 1
+    PATH_CHANGE_BOX_RANK2_PROB: 30              # ポールターン後に着替えボックスを目指す確率(％) 2
+    PATH_CHANGE_BOX_RANK3_PROB: 60              # ポールターン後に着替えボックスを目指す確率(％) 3
+    PATH_CHANGE_BOX_RANK4_PROB: 90              # ポールターン後に着替えボックスを目指す確率(％) 4
+    PATH_HARD_PROB: 50                          # ポールターン後にHARDパスを選択する確率(％)
+    BURST_TURN_PROB: 50                         # 未使用
+    RETURN_SACK_HURI_TIME_MIN: 15               # 大転倒復帰時に振り始める時間MIN
+    RETURN_SACK_HURI_TIME_MAX: 50               # 大転倒復帰時に振り始める時間MAX
+  NPC2:
+    DOWN_SHIFT:             2
+    DOWN_SHIFT_ANGLE:      20
+    DOWN_SHIFT_STOP_ANGLE: 60
+    ROTATE_ANGLE: 35
+    STOP_AFTER_JUMP_PROB: 40
+    STOP_MIN: 3
+    STOP_MAX: 8
+    TAME_OVER_GIMMICK_PROB:  60
+    PATH_CHANGE_BOX_RANK1_PROB: 5
+    PATH_CHANGE_BOX_RANK2_PROB: 30
+    PATH_CHANGE_BOX_RANK3_PROB: 60
+    PATH_CHANGE_BOX_RANK4_PROB: 90
+    PATH_HARD_PROB: 50
+    BURST_TURN_PROB: 40
+    RETURN_SACK_HURI_TIME_MIN: 13
+    RETURN_SACK_HURI_TIME_MAX: 45
+  NPC3:
+    DOWN_SHIFT:             3
+    DOWN_SHIFT_ANGLE:      15
+    DOWN_SHIFT_STOP_ANGLE: 60
+    ROTATE_ANGLE: 40
+    STOP_AFTER_JUMP_PROB: 50
+    STOP_MIN: 4
+    STOP_MAX: 9
+    TAME_OVER_GIMMICK_PROB:  30
+    PATH_CHANGE_BOX_RANK1_PROB: 5
+    PATH_CHANGE_BOX_RANK2_PROB: 60
+    PATH_CHANGE_BOX_RANK3_PROB: 70
+    PATH_CHANGE_BOX_RANK4_PROB: 80
+    PATH_HARD_PROB: 50
+    BURST_TURN_PROB: 40
+    RETURN_SACK_HURI_TIME_MIN: 10
+    RETURN_SACK_HURI_TIME_MAX: 40
+  ---- NPC4(強い):
+  NPC4:
+    DOWN_SHIFT:             4
+    DOWN_SHIFT_ANGLE:      15
+    DOWN_SHIFT_STOP_ANGLE: 60
+    ROTATE_ANGLE: 40
+    STOP_AFTER_JUMP_PROB: 40
+    STOP_MIN: 4
+    STOP_MAX: 9
+    TAME_OVER_GIMMICK_PROB:  20
+    PATH_CHANGE_BOX_RANK1_PROB: 0
+    PATH_CHANGE_BOX_RANK2_PROB: 70
+    PATH_CHANGE_BOX_RANK3_PROB: 80
+    PATH_CHANGE_BOX_RANK4_PROB: 90
+    PATH_HARD_PROB: 60
+    BURST_TURN_PROB: 50
+    RETURN_SACK_HURI_TIME_MIN: 15
+    RETURN_SACK_HURI_TIME_MAX: 45
+  NPC5:
+    DOWN_SHIFT:             5
+    DOWN_SHIFT_ANGLE:      20
+    DOWN_SHIFT_STOP_ANGLE: 70
+    ROTATE_ANGLE: 30
+    STOP_AFTER_JUMP_PROB: 0
+    STOP_MIN: 0
+    STOP_MAX: 0
+    TAME_OVER_GIMMICK_PROB:  99
+    PATH_CHANGE_BOX_RANK1_PROB: 10
+    PATH_CHANGE_BOX_RANK2_PROB: 90
+    PATH_CHANGE_BOX_RANK3_PROB: 90
+    PATH_CHANGE_BOX_RANK4_PROB: 90
+    PATH_HARD_PROB: 50
+    BURST_TURN_PROB: 50
+    RETURN_SACK_HURI_TIME_MIN: 15
+    RETURN_SACK_HURI_TIME_MAX: 50

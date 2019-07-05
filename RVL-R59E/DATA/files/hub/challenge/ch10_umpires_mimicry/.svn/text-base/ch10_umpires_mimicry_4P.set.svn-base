@@ -1,0 +1,131 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH10_UmpirePos
+    Trans:
+      __Type: Vector
+      X: 7.000000
+      Y: -0.096199
+      Z: 53.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 347.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH10_PlayerPos1
+    Trans:
+      __Type: Vector
+      X: -7.000000
+      Y: -0.096199
+      Z: 8.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 12.999997
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH10_PlayerPos2
+    Trans:
+      __Type: Vector
+      X: 7.000000
+      Y: -0.096199
+      Z: 3.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 357.999939
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH10_PlayerPos3
+    Trans:
+      __Type: Vector
+      X: 22.000000
+      Y: -0.096199
+      Z: 6.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 342.999939
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH10_PlayerPos4
+    Trans:
+      __Type: Vector
+      X: 33.000000
+      Y: -0.036751
+      Z: 16.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 329.999908
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0

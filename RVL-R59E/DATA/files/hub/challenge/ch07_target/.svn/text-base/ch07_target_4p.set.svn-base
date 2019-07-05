@@ -1,0 +1,105 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH07_PlayerPos1
+    Trans:
+      __Type: Vector
+      X: 16.000000
+      Y: 0.000000
+      Z: 100.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 180.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH07_PlayerPos2
+    Trans:
+      __Type: Vector
+      X: 28.000000
+      Y: 0.000000
+      Z: 100.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 180.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH07_PlayerPos3
+    Trans:
+      __Type: Vector
+      X: 39.000000
+      Y: 0.000000
+      Z: 100.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 180.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH07_PlayerPos4
+    Trans:
+      __Type: Vector
+      X: 50.000000
+      Y: 0.000000
+      Z: 100.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 180.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0

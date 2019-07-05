@@ -1,0 +1,704 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+    hub01_town01.hocb:
+      __Type: Collision
+      Filename: hub01_town01.hocb
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 0
+    UseBloom: 1
+    UseDof: 0
+    UseDof2: 1
+    UseBoolean: 0
+  ShadowSetting:
+    __Type: ShadowSetting
+    LightDirEffect: 0.000000
+    Color:
+      __Type: RGBA
+      R: 2
+      G: 42
+      B: 83
+      A: 57
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: field_start2
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 100000
+    LoopType: ENDLESS
+    TLPlayer:
+      __Type: TLPlayer
+      StartTime: 0.0
+      EndTime: 1.0
+      PlayerNum: 0
+    town_sky.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: C:\project\CP\CP_Wii_Design\trunk\background\hub\hub01_town\town_sky.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_snow_yakanai01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_snow_yakanai01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    obj_town_confetti00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_town_confetti00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    obj_town_yellowlight00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_town_yellowlight00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_town_yellowlight00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_town_yellowlight00.rcha
+    town_tree01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_tree01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_board01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_board01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_coffee01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_coffee01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_disco01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_disco01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_field01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_field01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_giftshop01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_giftshop01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_mountain01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_mountain01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_rink01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_rink01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_flag01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_flag01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    town_komono01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_komono01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    obj_town_flags00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_town_flags00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_town_flags00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: obj_town_flags00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 117.166
+          Y: 31.139
+          Z: 63.148
+        Rot:
+          __Type: Vector
+          X: 1.352
+          Y: -24.081
+          Z: -4.373
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    town_board02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_board02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    ef_coffeeyuge01a0000.remt:
+      __Type: TLEffEmitter
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: ef_coffeeyuge01a0000.remt
+      BrefName: cp_effects_hub
+      ParentNode: 
+      FollowParent: 0
+      ParentRotate: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -47.2
+          Y: 9
+          Z: 84
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+    town_loc_balloon01.rmdl:
+      __Type: TLLocatorObj
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: town_loc_balloon01.rmdl
+      AnimFrameMode: 0
+      gim_balloon01.rmdl:
+        __Type: TLModel
+        StartTime: 0.0
+        EndTime: 30.0
+        Filename: gim_balloon01.rmdl
+        EntryDraw: 1
+        EntryShadow: 0
+        EntryMirror: 0
+        EntryBooleanSrc: 0
+        EntryBooleanDst: 0
+        BufferOption: 0
+        gim_balloon01.rcha:
+          __Type: TLCharaAnim
+          StartTime: 0.0
+          EndTime: 30.0
+          LoopType: ENDLESS
+          AnimSpeed: 1.000000
+          AnimStartFrame: 0.000000
+          Filename: gim_balloon01.rcha
+  ActSignbord_01:
+    __Type: TLItemRoot
+    PlayType: ACTIVITY
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    act_town_signboard00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: act_town_signboard00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      act_town_signboard00.rvia:
+        __Type: TLRvia
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_signboard00.rvia
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: -0.5
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.0
+          Y: 1.0
+          Z: 1.0
+  ActGiftdoor_01:
+    __Type: TLItemRoot
+    PlayType: ACTIVITY
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    act_town_giftdoor00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: act_town_giftdoor00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      act_town_giftdoor00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_giftdoor00.rcha
+      act_town_giftdoor01.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_giftdoor01.rcha
+  ActClubdoor_01:
+    __Type: TLItemRoot
+    PlayType: ACTIVITY
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    act_town_clubdoor00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: act_town_clubdoor00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      act_town_clubdoor00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_clubdoor00.rcha
+      act_town_clubdoor01.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_clubdoor01.rcha
+  ActCoffeedoor_01:
+    __Type: TLItemRoot
+    PlayType: ACTIVITY
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    act_town_coffeedoor00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: act_town_coffeedoor00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      act_town_coffeedoor00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_coffeedoor00.rcha
+      act_town_coffeedoor01.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: act_town_coffeedoor01.rcha
+  ActStar_01:
+    __Type: TLItemRoot
+    PlayType: ACTIVITY
+    StartTime: 0.0
+    EndTime: 30.0
+    LoopType: ENDLESS
+    act_town_star00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: act_town_star00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      act_town_star00.rvia:
+        __Type: TLRvia
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: C:\project\CP\CP_Wii_Design\trunk\background\act\hub01_town\act_town_star00.rvia
+  HubCameraSetting:
+    __Type: HubCameraSetting
+    TargetOffsetY: 19.600000
+    Angle: 3.000000
+    Speed: 0.200000
+    Fovy: 33.281719
+    Near: 11.521720
+    Far: 5511.454102
+    LimitDistMin: 90.000000
+    LimitDistMax: 161.052216
+    LimitLeft: -198.000000
+    LimitRight: 213.000000
+    LimitUp: 60.000000
+    LimitDown: 173.000000
+    LimitBaseZ: 0.000000
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 26
+        G: 98
+        B: 82
+      Dir:
+        __Type: Vector
+        X: -0.451016
+        Y: -0.871964
+        Z: -0.190429
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 57
+        G: 50
+        B: 44
+      Dir:
+        __Type: Vector
+        X: 0.908720
+        Y: 0.222132
+        Z: -0.353391
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 57
+        G: 73
+        B: 72
+      Dir:
+        __Type: Vector
+        X: -0.002411
+        Y: 0.691928
+        Z: -0.721963
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 175
+        G: 165
+        B: 160
+      Dir:
+        __Type: Vector
+        X: 0.000992
+        Y: -0.858046
+        Z: -0.513572
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.566911
+        Y: -0.810814
+        Z: -0.145575
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 249
+      Dir:
+        __Type: Vector
+        X: 0.689824
+        Y: -0.714339
+        Z: -0.117739
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 190
+        G: 190
+        B: 190
+      Dir:
+        __Type: Vector
+        X: -0.590967
+        Y: 0.728507
+        Z: 0.346460
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 173
+        G: 173
+        B: 173
+      Dir:
+        __Type: Vector
+        X: -0.615663
+        Y: 0.548189
+        Z: -0.566080
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 167
+        G: 176
+        B: 172
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 200
+        G: 200
+        B: 255
+  BloomSetting:
+    __Type: BloomSetting
+    ProcType: 1
+    Border: 181
+    AddShift: 41
+    SoftShiftX: 6.455353
+    SoftShiftY: 6.388978
+    Color:
+      __Type: RGBA
+      R: 50
+      G: 50
+      B: 50
+      A: 30
+    SoftKN: 5
+  FogSetting:
+    __Type: FogSetting
+    FogNum: 0
+    FogType: 0
+    ZStart: 300.000000
+    ZEnd: 4000.000000
+    Color:
+      __Type: Color
+      R: 0
+      G: 81
+      B: 0
+  Camera:
+    __Type: Camera
+    Fovy: 38.000000
+    Near: 11.521720
+    Far: 5511.454102
+    Position:
+      __Type: Vector
+      X: -39.96
+      Y: 17.68
+      Z: 166.43
+    Target:
+      __Type: Vector
+      X: -40.6
+      Y: 7.050404
+      Z: 112.732582
+  Dof2Setting:
+    __Type: Dof2Setting
+    Fnum: 2.400000
+    FocalLength: 35.000000
+    S: 0.033000
+    Blend: 0.350000
+    FrontBlurMax: 0
+    Front: 4
+    BackBlurMax: 1
+    Back: 4
+  ColorFilter:
+    __Type: ColorFilter
+    Enable: 1
+    Red:
+      __Type: RGBA
+      R: 190
+      G: 20
+      B: 20
+      A: 0
+    Green:
+      __Type: RGBA
+      R: 20
+      G: 190
+      B: 20
+      A: 0
+    Blue:
+      __Type: RGBA
+      R: 20
+      G: 20
+      B: 190
+      A: 0
+    Bias:
+      __Type: RGBA
+      R: 10
+      G: 10
+      B: 10
+      A: 0

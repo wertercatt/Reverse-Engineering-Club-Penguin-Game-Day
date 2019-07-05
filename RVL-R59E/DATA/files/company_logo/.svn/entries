@@ -1,0 +1,71 @@
+9
+
+dir
+6057
+http://cp-wii-server:28828/svn/CP_Wii/trunk/dvdroot/company_logo
+http://cp-wii-server:28828/svn/CP_Wii
+
+
+
+2010-06-03T04:34:13.761377Z
+5912
+uchidam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9b02b4b4-0fe6-1946-ac4d-27194fa4eda4
+
+company_logo_lay.cmparc
+file
+
+
+
+
+2010-06-11T10:34:48.725246Z
+232373da5760093bf0071af45d257c4f
+2010-06-03T04:34:13.761377Z
+5912
+uchidam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+56180
+
+langUK
+dir
+
+langES
+dir
+
+langFR
+dir
+

@@ -1,0 +1,844 @@
+Root:
+  __Type: Root
+  Resource:
+    __Type: Resource
+    mg03_field_col03.hocb:
+      __Type: Collision
+      Filename: mg03_field_col03.hocb
+  SetupFlag:
+    __Type: SetupFlag
+    UseShadow: 1
+    UseMirror: 1
+    UseBloom: 1
+    UseDof: 1
+    UseDof2: 0
+    UseBoolean: 0
+  LightSetting:
+    __Type: LightSetting
+    Light:
+      __Type: Light2
+      LightNum: 0
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 26
+        G: 98
+        B: 82
+      Dir:
+        __Type: Vector
+        X: 0.5
+        Y: -0.73
+        Z: -4.5
+    Light:
+      __Type: Light2
+      LightNum: 1
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 57
+        G: 50
+        B: 44
+      Dir:
+        __Type: Vector
+        X: -0.43
+        Y: -0.88
+        Z: -0.19
+    Light:
+      __Type: Light2
+      LightNum: 2
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 57
+        G: 73
+        B: 72
+      Dir:
+        __Type: Vector
+        X: -0.00
+        Y: 0.69
+        Z: -0.721
+    Light:
+      __Type: Light2
+      LightNum: 3
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 175
+        G: 165
+        B: 160
+      Dir:
+        __Type: Vector
+        X: 0.54
+        Y: -0.65
+        Z: -0.5
+    Light:
+      __Type: Light2
+      LightNum: 4
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 253
+        G: 255
+        B: 255
+      Dir:
+        __Type: Vector
+        X: 0.566911
+        Y: -0.810814
+        Z: -0.145575
+    Light:
+      __Type: Light2
+      LightNum: 5
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 255
+        G: 255
+        B: 249
+      Dir:
+        __Type: Vector
+        X: 0.689824
+        Y: -0.714339
+        Z: -0.117739
+    Light:
+      __Type: Light2
+      LightNum: 6
+      Enable: 1
+      IsSpecular: 1
+      Color:
+        __Type: Color
+        R: 190
+        G: 190
+        B: 190
+      Dir:
+        __Type: Vector
+        X: -0.590967
+        Y: 0.728507
+        Z: 0.346460
+    Light:
+      __Type: Light2
+      LightNum: 7
+      Enable: 1
+      IsSpecular: 0
+      Color:
+        __Type: Color
+        R: 173
+        G: 173
+        B: 173
+      Dir:
+        __Type: Vector
+        X: -0.615663
+        Y: 0.548189
+        Z: -0.566080
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 0
+      Color:
+        __Type: Color
+        R: 167
+        G: 176
+        B: 172
+    AmbLight:
+      __Type: AmbLight2
+      LightNum: 1
+      Color:
+        __Type: Color
+        R: 200
+        G: 200
+        B: 255
+  BloomSetting:
+    __Type: BloomSetting
+    ProcType: 1
+    Border: 181
+    AddShift: 41
+    SoftShiftX: 6.455353
+    SoftShiftY: 6.388978
+    Color:
+      __Type: RGBA
+      R: 50
+      G: 50
+      B: 50
+      A: 40
+    SoftKN: 5
+  ShadowSetting:
+    __Type: ShadowSetting
+    LightDirEffect: 0
+    Color:
+      __Type: RGBA
+      R: 2
+      G: 42
+      B: 83
+      A: 120
+  FogSetting:
+    __Type: FogSetting
+    FogType: 0
+    ZStart: 500.000000
+    ZEnd: 3500.000000
+    Color:
+      __Type: Color
+      R: 250
+      G: 250
+      B: 253
+  DofSetting:
+    __Type: DofSetting
+    BlurMaxN: 0.000000
+    BlurMaxF: 1.000000
+    BlurZN: 0.000000
+    FocusZN: 0.000000
+    FocusZF: 0.999999
+    BlurZF: 1.000000
+    BlurShiftW: 1
+    BlurShiftH: 1
+    ExtendBlur: 0
+  Dof2Setting:
+    __Type: Dof2Setting
+    Enable: 1
+    Fnum: 1.73
+    FocalLength: 35.000000
+    S: 0.033000
+    Blend: 0.350000
+    FrontBlurMax: 0
+    Front: 0
+    BackBlurMax: 1.000000
+    Back: 4
+  ColorFilter:
+    __Type: ColorFilter
+    Enable: 1
+    Red:
+      __Type: RGBA
+      R: 190
+      G: 20
+      B: 20
+      A: 0
+    Green:
+      __Type: RGBA
+      R: 20
+      G: 190
+      B: 20
+      A: 0
+    Blue:
+      __Type: RGBA
+      R: 20
+      G: 20
+      B: 190
+      A: 0
+    Bias:
+      __Type: RGBA
+      R: 10
+      G: 10
+      B: 10
+      A: 0
+  AttachMirrorMatName:
+    __Type: AttachMirrorMatName
+    MatName: ice_base
+  MirrorSetting:
+    __Type: MirrorSetting
+    SoftKN: 8
+    EnableColorFilter: 1
+    Color:
+      __Type: RGBA
+      R: 120
+      G: 180
+      B: 170
+      A: 190
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: ggs_ground03
+  AttachShadowMatName:
+    __Type: AttachShadowMatName
+    MatName: ice_base
+  TLItemRoot:
+    __Type: TLItemRoot
+    PlayType: AUTO
+    StartTime: 0.0
+    EndTime: 100000
+    LoopType: ENDLESS
+    TLPlayer:
+      __Type: TLPlayer
+      StartTime: 0.0
+      EndTime: 1.0
+      PlayerNum: 0
+    gogostop_ground03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_ground03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_field01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_field01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 1
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_lodge01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_lodge01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 1
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_epf01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_epf01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 1
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+    gogostop_tours01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_tours01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_flag01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_flag01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_flag02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_flag02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_tree01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_tree01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_kanban01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_kanban01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_kanban02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_kanban02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    village_sky01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: village_sky01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 100
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: .65
+          Y: .35
+          Z: .65
+    gogostop_mountain01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_mountain01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 1
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_rope_way01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_rope_way01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostp_sstree01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostp_sstree01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    gogostop_enkei01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gogostop_enkei01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+    ef_ef_hub02smoke01a0000.remt:
+      __Type: TLEffEmitter
+      StartTime: 0.0
+      EndTime: 30.0
+      LoopType: ENDLESS
+      Filename: ef_ef_hub02smoke01a0000.remt
+      BrefName: cp_effects_hub
+      ParentNode:
+      FollowParent: 0
+      ParentRotate: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 49.855
+          Y: 68.4634
+          Z: -115.6575
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+    obj_village_gondola00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_village_gondola00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_village_gondola00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 0.3
+        AnimStartFrame: 0.000000
+        Filename: obj_village_gondola00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.25
+          Y: 1.25
+          Z: 1.25
+    obj_village_gondola00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_village_gondola00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_village_gondola00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 0.3
+        AnimStartFrame: 75
+        Filename: obj_village_gondola00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.25
+          Y: 1.25
+          Z: 1.25
+    obj_village_gondola00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_village_gondola00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_village_gondola00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 0.3
+        AnimStartFrame: 150
+        Filename: obj_village_gondola00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.25
+          Y: 1.25
+          Z: 1.25
+    obj_village_gondola00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: obj_village_gondola00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      BufferOption: 0
+      obj_village_gondola00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 0.3
+        AnimStartFrame: 225
+        Filename: obj_village_gondola00.rcha
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Rot:
+          __Type: Vector
+          X: 0.0
+          Y: 0.0
+          Z: 0.0
+        Scale:
+          __Type: Vector
+          X: 1.25
+          Y: 1.25
+          Z: 1.25
+    gim_balloon00_03.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_03.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -8.5
+          Y: 9.68
+          Z: 65.27
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: -45.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+      gim_balloon00_03.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_03.rcha
+    gim_balloon00_02.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_02.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: -3.23
+          Y: 25.53
+          Z: -94.45
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 120.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+      gim_balloon00_02.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_02.rcha
+    gim_balloon00_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 103.17
+          Y: 12.91
+          Z: 42.05
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: 135.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+      gim_balloon00_01.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_01.rcha
+    gim_balloon00_00.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: gim_balloon00_00.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 83.22
+          Y: 17.88
+          Z: -78.91
+        Rot:
+          __Type: Vector
+          X: 0.000000
+          Y: -90.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 1.000000
+          Y: 1.000000
+          Z: 1.000000
+      gim_balloon00_00.rcha:
+        __Type: TLCharaAnim
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        AnimSpeed: 1.000000
+        AnimStartFrame: 0.000000
+        Filename: gim_balloon00_00.rcha
+    coffee_startline01_01.rmdl:
+      __Type: TLModel
+      StartTime: 0.0
+      EndTime: 30.0
+      Filename: coffee_startline01_01.rmdl
+      EntryDraw: 1
+      EntryShadow: 0
+      EntryMirror: 0
+      EntryBooleanSrc: 0
+      EntryBooleanDst: 0
+      EntryAlphaObj: 0
+      BufferOption: 0
+      TLMover:
+        __Type: TLMover
+        StartTime: 0.0
+        EndTime: 30.0
+        LoopType: ENDLESS
+        Trans:
+          __Type: Vector
+          X: 35.000000
+          Y: -0.200000
+          Z: 98.000000
+        Rot:
+          __Type: Vector
+          X: 9.999999
+          Y: 0.000000
+          Z: 0.000000
+        Scale:
+          __Type: Vector
+          X: 0.900000
+          Y: 0.900000
+          Z: 0.800000
+  Camera:
+    __Type: Camera
+    Fovy: 45
+    Near: 1.000000
+    Far: 10000.000000
+    Position:
+      __Type: Vector
+      X: 35
+      Y: 15
+      Z: 130
+    Target:
+      __Type: Vector
+      X: 40
+      Y: 0
+      Z: 0

@@ -1,0 +1,183 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH05_PlayerPos1
+    Trans:
+      __Type: Vector
+      X: 30.000000
+      Y: 0.000000
+      Z: 105.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 180.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_PlayerPos2
+    Trans:
+      __Type: Vector
+      X: 70.000000
+      Y: 0.000000
+      Z: 70.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 249.999969
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_PlayerPos3
+    Trans:
+      __Type: Vector
+      X: -9.000000
+      Y: 0.000000
+      Z: 60.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 99.999985
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_PlayerPos4
+    Trans:
+      __Type: Vector
+      X: 33.000000
+      Y: 0.000000
+      Z: 25.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 349.999817
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_CenterPos
+    Trans:
+      __Type: Vector
+      X: 30.000000
+      Y: 0.000000
+      Z: 70.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 199.999969
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH05_SnowmanPos
+    Trans:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 0.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Collision:
+    __Type: SetData
+    SetName: SnowmanSide
+    Trans:
+      __Type: Vector
+      X: 41.011070
+      Y: 0.079010
+      Z: 7.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 359.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 87.799309
+      Y: 100.414711
+      Z: 10.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 0
+      Data2: 0
+      Data3: 0

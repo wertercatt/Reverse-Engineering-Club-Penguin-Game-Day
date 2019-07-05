@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/CP_Wii/!svn/ver/6047/trunk/dvdroot/common
+END
+nowsaving.arc
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/CP_Wii/!svn/ver/5921/trunk/dvdroot/common/nowsaving.arc
+END
+nowloading.arc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CP_Wii/!svn/ver/5388/trunk/dvdroot/common/nowloading.arc
+END
+savebanner.arc
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/CP_Wii/!svn/ver/6047/trunk/dvdroot/common/savebanner.arc
+END
+common_dialog.arc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/CP_Wii/!svn/ver/5977/trunk/dvdroot/common/common_dialog.arc
+END

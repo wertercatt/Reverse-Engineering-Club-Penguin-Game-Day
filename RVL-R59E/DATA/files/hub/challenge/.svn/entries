@@ -1,0 +1,147 @@
+9
+
+dir
+6057
+http://cp-wii-server:28828/svn/CP_Wii/trunk/dvdroot/hub/challenge
+http://cp-wii-server:28828/svn/CP_Wii
+
+
+
+2010-06-10T06:04:52.639500Z
+6027
+uchidam
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9b02b4b4-0fe6-1946-ac4d-27194fa4eda4
+
+ch04_jackhammer
+dir
+
+langUK
+dir
+
+ch12_colordance_yellow
+dir
+
+instruction
+dir
+
+ch01_snowfight
+dir
+
+ch02_signboard
+dir
+
+ch09_strangeone
+dir
+
+ch10_umpires_mimicry
+dir
+
+challenge_gallery.cmpres
+file
+
+
+
+
+2010-06-11T10:49:11.033158Z
+a30bbf4952702aa347ab7fc0f44c47e9
+2010-04-26T06:56:58.674750Z
+5335
+ogawa
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+88341
+
+conquer_scene
+dir
+
+ch08_giantballoon
+dir
+
+ch05_snowman
+dir
+
+challenge_common_lay.cmparc
+file
+
+
+
+
+2010-06-11T10:49:11.173785Z
+a08c82d99c0a9d4179a49f29679470f6
+2010-05-04T04:27:43.285000Z
+5400
+uchidam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+522497
+
+ch11_colordance_green
+dir
+
+ch03_copyface
+dir
+
+ch07_target
+dir
+
+langES
+dir
+
+langFR
+dir
+
+ch06_snowcone
+dir
+

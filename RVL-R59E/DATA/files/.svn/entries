@@ -1,0 +1,122 @@
+9
+
+dir
+6057
+http://cp-wii-server:28828/svn/CP_Wii/trunk/dvdroot
+http://cp-wii-server:28828/svn/CP_Wii
+
+
+
+2010-06-11T11:22:12.405125Z
+6057
+morishita_g
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9b02b4b4-0fe6-1946-ac4d-27194fa4eda4
+
+opening.bnr
+file
+
+
+
+
+2010-06-11T11:24:10.747534Z
+ed844940328058d4dde0d0a692478164
+2010-06-11T03:12:38.858250Z
+6047
+uchidam
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+357400
+
+test
+dir
+
+title
+dir
+
+sample
+dir
+
+game_sub
+dir
+
+penguin_maker
+dir
+
+company_logo
+dir
+
+sound
+dir
+
+common
+dir
+
+wifi_room
+dir
+
+effect
+dir
+
+scene
+dir
+
+keyboard
+dir
+
+param
+dir
+
+localize
+dir
+
+hbm
+dir
+
+font
+dir
+
+option
+dir
+
+game
+dir
+
+hub
+dir
+
+chara
+dir
+

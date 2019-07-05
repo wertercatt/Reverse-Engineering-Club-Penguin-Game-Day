@@ -1,0 +1,53 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH06_PlayerPos1
+    Trans:
+      __Type: Vector
+      X: 4.343462
+      Y: -0.966087
+      Z: 64.975845
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 185.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH06_PlayerPos2
+    Trans:
+      __Type: Vector
+      X: 26.248499
+      Y: -0.715355
+      Z: 54.100262
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 224.999985
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0

@@ -1,0 +1,157 @@
+SetItemRoot:
+  Locater:
+    __Type: SetData
+    SetName: CH_GalleryNpcPos0
+    Trans:
+      __Type: Vector
+      X: -13.000000
+      Y: 1.237068
+      Z: 59.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 314.999878
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH_GalleryNpcPos1
+    Trans:
+      __Type: Vector
+      X: -10.000000
+      Y: 0.000000
+      Z: 82.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 337.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH_GalleryNpcPos2
+    Trans:
+      __Type: Vector
+      X: -52.000000
+      Y: 0.000000
+      Z: 75.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 13.999998
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH_GalleryNpcPos3
+    Trans:
+      __Type: Vector
+      X: -68.000000
+      Y: 0.000000
+      Z: 83.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 45.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH_GalleryNpcPos6
+    Trans:
+      __Type: Vector
+      X: -31.000000
+      Y: 0.000000
+      Z: 48.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 351.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
+  Locater:
+    __Type: SetData
+    SetName: CH_GalleryNpcPos7
+    Trans:
+      __Type: Vector
+      X: -72.000000
+      Y: -0.000008
+      Z: 61.000000
+    Rot:
+      __Type: Vector
+      X: 0.000000
+      Y: 30.000000
+      Z: 0.000000
+    Scale:
+      __Type: Vector
+      X: 1.000000
+      Y: 1.000000
+      Z: 1.000000
+    Attr:
+      __Type: Attr
+      Attr: 0x00000000
+    UserData:
+      __Type: UserData
+      Data1: 1
+      Data2: 0
+      Data3: 0
