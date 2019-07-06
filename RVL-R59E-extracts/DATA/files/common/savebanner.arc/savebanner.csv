@@ -1,0 +1,28 @@
+﻿#アイコンアニメ数
+#最大８
+0,4
+#アイコンアニメタイプ
+# 0 LOOP, 1 BOUNCE
+1,0
+#アイコンアニメスピード
+# 0 END, 1, FAST, 2 NORMAL, 3 SLOW
+2,3
+3,3
+4,3
+5,3
+6,0
+7,0
+8,0
+9,0
+#日本語
+10,Disney Club Penguin
+11,Game Day!
+#英語
+20,Disney Club Penguin
+21,Game Day!
+#フランス語
+30,Disney Club Penguin
+31,Le Grand Jour !
+#スペイン語
+40,Disney Club Penguin
+41,¡Día de juegos!
